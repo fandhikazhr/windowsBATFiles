@@ -8,3 +8,5 @@ echo that's good
 pause
 echo open cmd with green color text
 pause
+cls
+cmd /T:02
