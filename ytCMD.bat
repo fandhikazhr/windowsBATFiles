@@ -5,3 +5,4 @@ set /p URL=Input Youtube URL :
 mpv %URL%
 echo Stop Playing Online Video
 pause
+goto start
