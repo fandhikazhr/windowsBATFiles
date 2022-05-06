@@ -24,3 +24,6 @@ call :switch-case-N-%CHOOSE% 2>nul || (
 :switch-case-N-2
   set /p URL=Input Youtube URL : 
   mpv %URL%
+  echo Stop Playing Online Video
+  pause
+  goto start
