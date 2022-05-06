@@ -21,3 +21,6 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   echo Stop Playing Offline Video
   pause
   goto start
+:switch-case-N-2
+  set /p URL=Input Youtube URL : 
+  mpv %URL%
