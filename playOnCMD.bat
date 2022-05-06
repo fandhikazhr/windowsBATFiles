@@ -13,3 +13,7 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     cls
     goto start
 )
+:switch-case-N-1
+  cd C:\Users\LAPTOP\Videos\
+  dir
+  set /p PLAY=Type to directory videos : 
