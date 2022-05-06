@@ -17,3 +17,7 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   cd C:\Users\LAPTOP\Videos\
   dir
   set /p PLAY=Type to directory videos : 
+  mpv %PLAY%
+  echo Stop Playing Offline Video
+  pause
+  goto start
