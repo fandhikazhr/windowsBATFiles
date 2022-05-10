@@ -8,9 +8,9 @@
 
 ![prevRun](https://user-images.githubusercontent.com/99522867/166238239-1861acc2-c086-48c7-92c7-d7331eac9161.gif)
 
-# Player CMD
+# Play On CMD
 <p>How to use :</p>
 
 1. First install mpv player on your windows operating system.
 2. Add mpv installation folder to PATH.
-3. So you can run playCMD.bat file.
+3. So you can run playOnCMD.bat file.
