@@ -11,5 +11,6 @@
 # Player CMD
 <p>How to use :</p>
 
-1. First install mpv player on your windows operating system
-2. Add mpv installation folder to PATH
+1. First install mpv player on your windows operating system.
+2. Add mpv installation folder to PATH.
+3. So you can run playCMD.bat file.
