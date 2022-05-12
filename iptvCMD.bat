@@ -9,3 +9,7 @@ set /p Choose (ex:1,2,3) :
 call :switch-case-N-%CHOOSE% 2>nul || (
     :: Default case
     echo Wrong choice
+    pause
+    cls
+    goto start
+)
