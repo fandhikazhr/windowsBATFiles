@@ -13,3 +13,12 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     cls
     goto start
 )
+:switch-case-N-1
+  mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://youtube.com/user/NetInsights/live
+  echo Stop Playing
+  pause
+  goto start
+:switch-case-N-2
+  mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://m.youtube.com/c/MetrotvnewsOfficial/live
+  pause
+  goto start
