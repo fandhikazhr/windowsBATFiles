@@ -32,3 +32,6 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   goto start
 :switch-case-N-4
   mpv https://live-kg.jixie.media/live/kompastv_lhd.m3u8
+  echo Stop Playing
+  pause
+  goto start
