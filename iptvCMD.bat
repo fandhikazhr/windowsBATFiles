@@ -60,3 +60,4 @@ call :switch-case-N-%CHOOSE% 2>nul || (
 :switch-case-N-7
   mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://youtube.com/watch?v=K9lOPKwo44w
   echo Stop Playing
+  pause
