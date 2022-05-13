@@ -43,6 +43,7 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   mpv https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
   echo Stop Playing
   pause
+  cls
   goto start
 :switch-case-N-4
   mpv https://live-kg.jixie.media/live/kompastv_lhd.m3u8
