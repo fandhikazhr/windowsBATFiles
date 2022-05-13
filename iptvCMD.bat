@@ -23,4 +23,6 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   pause
   goto start
 :switch-case-N-3
-  mpv
+  mpv https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+  pause
+  goto start
