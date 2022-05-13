@@ -53,3 +53,6 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   goto start
 :switch-case-N-6
   mpv https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
+  echo Stop Playing
+  pause
+  goto start
