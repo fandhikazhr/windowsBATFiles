@@ -37,6 +37,7 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://m.youtube.com/c/MetrotvnewsOfficial/live
   echo Stop Playing
   pause
+  cls
   goto start
 :switch-case-N-3
   mpv https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
