@@ -42,3 +42,5 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   echo Stop Playing
   pause
   goto start
+:switch-case-N-6
+  mpv
