@@ -6,6 +6,7 @@ echo 1. NET TV
 echo 2. METRO TV
 echo 3. CNN Indonesia
 echo 4. Kompas TV
+echo 5. Trans7
 set /p CHOOSE=(ex:1,2,3) : 
 
 call :switch-case-N-%CHOOSE% 2>nul || (
