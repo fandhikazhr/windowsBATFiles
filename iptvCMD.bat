@@ -52,4 +52,4 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   pause
   goto start
 :switch-case-N-6
-  mpv
+  mpv https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
