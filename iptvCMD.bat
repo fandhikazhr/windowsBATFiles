@@ -55,6 +55,7 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   mpv https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
   echo Stop Playing
   pause
+  cls
   goto start
 :switch-case-N-6
   mpv https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
