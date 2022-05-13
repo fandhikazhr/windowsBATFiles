@@ -22,3 +22,5 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://m.youtube.com/c/MetrotvnewsOfficial/live
   pause
   goto start
+:switch-case-N-3
+  mpv
