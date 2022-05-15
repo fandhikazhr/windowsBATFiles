@@ -2,6 +2,8 @@
 title Player CMD
 :start
 echo 8888888b.  888                         .d88888b.                 .d8888b.  888b     d888 8888888b.  
+echo 888   Y88b 888                        d88P" "Y88b               d88P  Y88b 8888b   d8888 888  "Y88b 
+echo 888    888 888                        888     888               888    888 88888b.d88888 888    888 
 echo Play Video From :
 echo 1. Offline
 echo 2. Online
