@@ -18,3 +18,9 @@ echo 4. Comedy
 echo 5. Cooking
 echo 6. Culture
 echo 7. Documentary
+echo 8. Education
+echo 9. Entertainment
+echo 10. Family
+echo 11. Kids
+echo 12. Lifestyle
+echo 13. Movies
