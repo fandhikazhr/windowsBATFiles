@@ -10,3 +10,7 @@ echo   888   888           888       Y88o88P        888    888 888  Y8P  888 888
 echo   888   888           888        Y888P         Y88b  d88P 888   "   888 888  .d88P 
 echo 8888888 888           888         Y8P           "Y8888P"  888       888 8888888P"  
 echo.
+echo Category :
+echo 1. Animation
+echo 2. Business
+echo 3. Classic
