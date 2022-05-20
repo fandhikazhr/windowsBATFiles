@@ -11,9 +11,9 @@ echo   888   888           888        Y888P         Y88b  d88P 888   "   888 888
 echo 8888888 888           888         Y8P           "Y8888P"  888       888 8888888P"  
 echo.
 echo Category :
-echo 1. Animation
-echo 2. Business
-echo 3. Classic
-echo 4. Comedy
-echo 5. Cooking
+echo 1. Animation   6. Culture        11. Kids
+echo 2. Business    7. Documentary    12. Legislative
+echo 3. Classic     8. Education      13. Lifestyle
+echo 4. Comedy      9. Entertainment  14. Movies
+echo 5. Cooking     10. Family        15. Music
 
