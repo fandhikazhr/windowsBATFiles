@@ -26,3 +26,7 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     cls
     goto start
 )
+:switch-case-N-1
+  echo 1. Animax
+  echo 2. AnimeTV
+  echo 3. ATX
