@@ -28,6 +28,7 @@ call :switch-case-N-%CHOOSE% 2>nul || (
 )
 :switch-case-N-1
   :animation
+  cls
   echo 1. Animax        6. PersianJunior        11. Naruto
   echo 2. AnimeTV       7. PlutoTVAnimeAccion   12. OnePiece
   echo 3. ATX           8. PlutoTVAnimeAllAges  13. YuGiOh
