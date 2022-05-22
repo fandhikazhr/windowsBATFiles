@@ -27,8 +27,26 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     goto start
 )
 :switch-case-N-1
+  :animation
   echo 1. Animax        6. PersianJunior        11. Naruto
   echo 2. AnimeTV       7. PlutoTVAnimeAccion   12. OnePiece
   echo 3. ATX           8. PlutoTVAnimeAllAges  13. YuGiOh
   echo 4. CONtvAnime    9. AnimeAllDay          14. SpaceToonIndonesia
-  echo 5. FAN           10. PlutoTVAnimeClasico
+  echo 5. FAN           10. PlutoTVAnimeClasico 15. Exit
+  echo.
+  set /p CHS=(ex:1,2,3) :
+  
+  call :switch-case-N-%CHS% 2>nul || (
+      :: Default case
+      echo Wrong choice
+      pause
+      cls
+      goto animation
+  )
+  :switch-case-N-1
+    mpv https://livecdn.fptplay.net/hda3/animaxport_hls.smil/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto animation
+  
