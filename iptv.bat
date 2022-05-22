@@ -18,3 +18,11 @@ echo 4. Comedy      9. Entertainment  14. Movies        19. Science
 echo 5. Cooking     10. Family        15. Music         20. Sports
 echo.
 set /p CHOOSE=(ex:1,2,3) : 
+
+call :switch-case-N-%CHOOSE% 2>nul || (
+    :: Default case
+    echo Wrong choice
+    pause
+    cls
+    goto start
+)
