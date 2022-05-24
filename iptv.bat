@@ -27,10 +27,10 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     goto start
 )
 :switch-case-N-1
-  echo Animation Category
-  echo.
   :animation
   cls
+  echo Animation Category
+  echo.
   echo 1. Animax        6. PersianJunior        11. Naruto
   echo 2. AnimeTV       7. PlutoTVAnimeAccion   12. OnePiece
   echo 3. ATX           8. PlutoTVAnimeAllAges  13. YuGiOh
