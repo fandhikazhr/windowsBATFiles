@@ -153,3 +153,36 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 10. BloombergTVEMEALiveEvent     20. TDAmeritradeNetwork             30. Tevex
   echo.
   set /p CHSS=(ex:1,2,3) : 
+  
+  call :switch-case-B-%CHSS% 2>nul || (
+      :: Default case
+      echo Wrong choice
+      pause
+      cls
+      goto business
+  )
+  :switch-case-B-1
+    mpv https://30a-tv.com/feeds/xodglobal/30atv.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-2
+    mpv https://tdameritrade-vizio.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-3
+    mpv https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-4
+    mpv http://live-atameken.cdnvideo.ru/atameken/atameken.sdp/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  
