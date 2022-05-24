@@ -19,14 +19,14 @@ echo 5. Cooking     10. Family        15. Music         20. Sports
 echo.
 set /p CHOOSE=(ex:1,2,3) : 
 
-call :switch-case-N-%CHOOSE% 2>nul || (
+call :switch-case-K-%CHOOSE% 2>nul || (
     :: Default case
     echo Wrong choice
     pause
     cls
     goto start
 )
-:switch-case-N-1
+:switch-case-K-1
   :animation
   cls
   echo Animation Category
@@ -134,7 +134,9 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     pause
     cls
     goto start
-:switch-case-N-2
+    
+    
+:switch-case-K-2
   :business
   cls
   echo Business Category
@@ -149,3 +151,5 @@ call :switch-case-N-%CHOOSE% 2>nul || (
   echo 8. BloombergTVAsiaLiveEvent      18. CNBC                            28. NDTVProfit
   echo 9. BloombergTVAustralia          19. CNBCArabiya                     29. RealVision
   echo 10. BloombergTVEMEALiveEvent     20. TDAmeritradeNetwork             30. Tevex
+  echo.
+  set /p CHSS=(ex:1,2,3) : 
