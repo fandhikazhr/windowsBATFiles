@@ -134,5 +134,18 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     pause
     cls
     goto start
-    
-  
+:switch-case-N-2
+  :business
+  cls
+  echo Business Category
+  echo.
+  echo 1. 30InvestmentPitch             11. BloombergTVEurope               21. CNBCAwaaz           31. YahooFinance
+  echo 2. Ameritrade                    12. BloombergTVLiveEvent            22. CNBCBajar           32. RBKTV
+  echo 3. Asharq                        13. BloombergTVPoliticsLiveEvent    23. CNBCEurope          33. Exit
+  echo 4. AtamekenBusiness              14. BloombergTVPlus                 24. CNBCIndonesia
+  echo 5. BloombergHT                   15. BusinessRockstars               25. CNBCTV18
+  echo 6. BloombergTV                   16. CCTV2                           26. ETNow
+  echo 7. BloombergTVAsia               17. ClassCNBC                       27. FoxBusiness
+  echo 8. BloombergTVAsiaLiveEvent      18. CNBC                            28. NDTVProfit
+  echo 9. BloombergTVAustralia          19. CNBCArabiya                     29. RealVision
+  echo 10. BloombergTVEMEALiveEvent     20. TDAmeritradeNetwork             30. Tevex
