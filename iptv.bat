@@ -70,4 +70,16 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     pause
     cls
     goto animation
+  :switch-case-N-5
+    mpv http://194.9.27.164:8103/play/FAN/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto animation
+  :switch-case-N-6
+    mpv http://51.210.199.18/hls/stream.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto animation
   
