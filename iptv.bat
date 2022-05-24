@@ -58,4 +58,10 @@ call :switch-case-N-%CHOOSE% 2>nul || (
     pause
     cls
     goto animation
+  :switch-case-N-3
+    mpv https://sub2.neetball.net/live/neet.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto animation
   
