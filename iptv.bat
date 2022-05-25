@@ -197,4 +197,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto business
+  :switch-case-B-7
+    mpv https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-8
+    mpv https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-9
+    mpv https://liveprodapnortheast.akamaized.net/oz1/Channel-OZTVqvs-AWS-tokyo-1/Source-OZTVqvs-440-1_live.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
   
