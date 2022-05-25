@@ -239,4 +239,40 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto business
+  :switch-case-B-14
+    mpv https://bloomberg-bloombergtv-1-es.samsung.wurl.com/manifest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-15
+    mpv https://content.uplynk.com/channel/7ad2b600b40b4a89933ab6981757f8b3.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-16
+    mpv http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-17
+    mpv https://streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net/live/S76890577/tDoFkZD3T1Lw/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-18
+    mpv https://16live00.akamaized.net/CNBC/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-19
+    mpv https://hiplayer.hibridcdn.net/p/cnbcarabia-live.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
   
