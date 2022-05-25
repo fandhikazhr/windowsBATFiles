@@ -215,4 +215,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto business
+  :switch-case-B-10
+    mpv https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-11
+    mpv https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
   
