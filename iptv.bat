@@ -185,4 +185,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto business
+  :switch-case-B-5
+    mpv https://tv.ensonhaber.com/tv/tr/bloomberght/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-6
+    mpv https://bloomberg-bloomberg-1-eu.rakuten.wurl.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
   
