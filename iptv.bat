@@ -275,4 +275,28 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto business
+  :switch-case-B-20
+    mpv https://cnbcawaaz-lh.akamaihd.net/i/cnbcawaaz_1@174872/index_5_av-p.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-21
+    mpv https://cnbcbazar-lh.akamaihd.net/i/cnbcbajar_1@178933/index_5_av-p.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-22
+    mpv http://ott-cdn.ucom.am/s65/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-23
+    mpv https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
   
