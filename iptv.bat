@@ -317,4 +317,44 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto business
+  :switch-case-B-27
+    mpv https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680-b/ndtvprofit/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-28
+    mpv https://a.jsrdn.com/broadcast/2a755012a8/+0000/c.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-29
+    mpv https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-30
+    mpv https://v4.tustreaming.cl/tevexinter/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-31
+    mpv https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-32
+    mpv https://live-rbc.gcdn.co/gcore/rbctvhd.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-33
+    pause
+    cls
+    goto start
   
