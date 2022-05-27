@@ -299,4 +299,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto business
+  :switch-case-B-24
+    mpv https://cnbctv18-lh.akamaihd.net/i/cnbctv18_1@174868/index_5_av-p.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-25
+    mpv https://pubads.g.doubleclick.net/ssai/event/pJrzNyDoT_K_GwYQsijTsQ/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto business
+  :switch-case-B-26
+    mpv http://199.66.95.242/1/1172/index.m3u8?token=test
+    echo Stop Playing
+    pause
+    cls
+    goto business
   
