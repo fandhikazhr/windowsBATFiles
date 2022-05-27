@@ -357,4 +357,21 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto start
+
+
+:switch-case-K-3
+  :classic
+  cls
+  echo Classic Category
+  echo.
+  echo 1. 247RetroTV                11. HonorTV
+  echo 2. ChickenSoupForTheSoul     12. JohnnyCarsonTV
+  echo 3. CinevaultWesterns
+  echo 4. ClassicCinema
+  echo 5. ClassicTV4U
+  echo 6. DickCavett
+  echo 7. DubaiZaman
+  echo 8. FilmRiseClassicTV
+  echo 9. FolkTV
+  echo 10. GoldenTV
   
