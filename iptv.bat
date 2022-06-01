@@ -364,14 +364,14 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Classic Category
   echo.
-  echo 1. 247RetroTV                11. HonorTV
-  echo 2. ChickenSoupForTheSoul     12. JohnnyCarsonTV
-  echo 3. CinevaultWesterns
-  echo 4. ClassicCinema
-  echo 5. ClassicTV4U
-  echo 6. DickCavett
-  echo 7. DubaiZaman
-  echo 8. FilmRiseClassicTV
-  echo 9. FolkTV
-  echo 10. GoldenTV
+  echo 1. 247RetroTV                11. HonorTV                 21. DoctorWhoClassic
+  echo 2. ChickenSoupForTheSoul     12. JohnnyCarsonTV          22. PlutoTVSeriesRetro
+  echo 3. CinevaultWesterns         13. KocowaClassic           23. TheLoveBoat
+  echo 4. ClassicCinema             14. LoneStar                24. QwestTVClassical
+  echo 5. ClassicTV4U               15. PersianaClassic         25. RetroCartoon
+  echo 6. DickCavett                16. PersianaNostalgia       26. RotanaCartoon
+  echo 7. DubaiZaman                17. BeverlyHillbillies      27. RotanaClassic
+  echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. SciFi4U
+  echo 9. FolkTV                    19. ClassicTVComedy
+  echo 10. GoldenTV                 20. ClassicTVDrama
   
