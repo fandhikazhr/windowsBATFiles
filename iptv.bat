@@ -364,14 +364,14 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Classic Category
   echo.
-  echo 1. 247RetroTV                11. HonorTV                 21. DoctorWhoClassic
-  echo 2. ChickenSoupForTheSoul     12. JohnnyCarsonTV          22. PlutoTVSeriesRetro
-  echo 3. CinevaultWesterns         13. KocowaClassic           23. TheLoveBoat
-  echo 4. ClassicCinema             14. LoneStar                24. QwestTVClassical
-  echo 5. ClassicTV4U               15. PersianaClassic         25. RetroCartoon
-  echo 6. DickCavett                16. PersianaNostalgia       26. RotanaCartoon
-  echo 7. DubaiZaman                17. BeverlyHillbillies      27. RotanaClassic
-  echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. SciFi4U
-  echo 9. FolkTV                    19. ClassicTVComedy
-  echo 10. GoldenTV                 20. ClassicTVDrama
+  echo 1. 247RetroTV                11. HonorTV                 21. DoctorWhoClassic    31. TCMWest                 41. TVSInspirationalNetwork
+  echo 2. ChickenSoupForTheSoul     12. JohnnyCarsonTV          22. PlutoTVSeriesRetro  32. TheArchive              42. TVSMainstreet
+  echo 3. CinevaultWesterns         13. KocowaClassic           23. TheLoveBoat         33. TheCarolBurnettShow     43. TVSNostalgia
+  echo 4. ClassicCinema             14. LoneStar                24. QwestTVClassical    34. TheTimConwayShow        44. TVSNostalgiaMovies
+  echo 5. ClassicTV4U               15. PersianaClassic         25. RetroCartoon        35. ThikrayatTV             45. TVSPetParadeNetwork
+  echo 6. DickCavett                16. PersianaNostalgia       26. RotanaCartoon       36. TVSCipherNetwork        46. TVSQuizShowNetwork
+  echo 7. DubaiZaman                17. BeverlyHillbillies      27. RotanaClassic       37. TVSClassicMovies        47. TVSTallyHo
+  echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. SciFi4U             38. TVSFrontPageDetective   48. TVSTavern
+  echo 9. FolkTV                    19. ClassicTVComedy         29. STIRFamily          39. TVSHollywoodHistory     49. TVSWesternMovie
+  echo 10. GoldenTV                 20. ClassicTVDrama          30. TCMEast             40. TVSHorrorNetwork        50. Exit
   
