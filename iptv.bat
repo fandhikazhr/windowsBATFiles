@@ -376,3 +376,14 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 10. GoldenTV                 20. ClassicTVDrama          30. TCMEast             40. TVSHorrorNetwork        50. Exit
   echo.
   set /p CHSSS=(ex:1,2,3) : 
+  
+  call :switch-case-C-%CHSSS% 2>nul || (
+      :: Default Case
+      echo Wrong choice
+      pause
+      cls
+      goto animation
+  )
+  
+  
+  
