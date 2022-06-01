@@ -438,3 +438,46 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto classic
+  :switch-case-C-9
+    mpv https://rpn1.bozztv.com/36bay2/gusa-goldentv/mono.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-10
+    mpv https://a.jsrdn.com/broadcast/d5b48/+0000/c.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-11
+    mpv https://johnnycarson-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-johnnycarson-redbox/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-12
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-rokukocowa/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-13
+    mpv https://lonestar-rakuten.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-14
+    mpv http://51.210.199.26/hls/stream.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-15
+    mpv http://51.210.199.20/hls/stream.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  
