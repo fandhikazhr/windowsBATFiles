@@ -384,6 +384,11 @@ call :switch-case-K-%CHOOSE% 2>nul || (
       cls
       goto animation
   )
-  
+  :switch-case-C-1
+    mpv http://hlsdpi-cdn-chqtx02.totalstream.net/dpilive/247retro/ret/dai/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto animation
   
   
