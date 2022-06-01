@@ -374,4 +374,5 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. SciFi4U             38. TVSFrontPageDetective   48. TVSTavern
   echo 9. FolkTV                    19. ClassicTVComedy         29. STIRFamily          39. TVSHollywoodHistory     49. TVSWesternMovie
   echo 10. GoldenTV                 20. ClassicTVDrama          30. TCMEast             40. TVSHorrorNetwork        50. Exit
-  
+  echo.
+  set /p CHSSS=(ex:1,2,3) : 
