@@ -389,6 +389,52 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     echo Stop Playing
     pause
     cls
-    goto animation
-  
-  
+    goto classic
+  :switch-case-C-2
+    mpv http://hlsdpi-cdn-chqtx02.totalstream.net/dpilive/247retro/ret/dai/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-3
+    mpv https://20995731713c495289784ab260b3c830.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_CinevaultWesterns/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-4
+    mpv https://rpn1.bozztv.com/36bay2/gusa-classiccinema/mono.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-4
+    mpv https://broadcast.mytvtogo.net/classictv4u/classictv4u/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-5
+    mpv https://dai.google.com/linear/hls/event/-NacIpMDTZ2y1bhkJN96Vg/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-6
+    mpv https://dmiffthvll.cdn.mangomolo.com/dubaizaman/smil:dubaizaman.stream.smil/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-7
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassictv/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-8
+    mpv https://584b0aa350b92.streamlock.net/folk-tv/myStream.sdp/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
