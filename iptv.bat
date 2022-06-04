@@ -371,9 +371,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 5. ClassicTV4U               15. PersianaClassic         25. RetroCartoon        35. TVSCipherNetwork        45. TVSQuizShowNetwork
   echo 6. DickCavett                16. PersianaNostalgia       26. RotanaClassic       36. TVSClassicMovies        46. TVSTallyHo
   echo 7. DubaiZaman                17. BeverlyHillbillies      27. SciFi4U             37. TVSFrontPageDetective   47. TVSTavern
-  echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. STIRFamily          38. TVSHollywoodHistory     48. TVSWesternMovie
-  echo 9. FolkTV                    19. ClassicTVComedy         29. TCMEast             39. TVSHorrorNetwork        49. Exit
-  echo 10. GoldenTV                 20. ClassicTVDrama          30. TCMWest             40. TVSInspirationalNetwork        
+  echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. STIRRClassicTV      38. TVSHollywoodHistory     48. TVSWesternMovie
+  echo 9. FolkTV                    19. ClassicTVComedy         29. STIRRFamily         39. TVSHorrorNetwork        49. TCMEast
+  echo 10. GoldenTV                 20. ClassicTVDrama          30. TCMWest             40. TVSInspirationalNetwork 50. Exit       
   echo.
   set /p CHSSS=(ex:1,2,3) : 
   
@@ -541,4 +541,144 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto classic
   :switch-case-C-27
-    mpv 
+    mpv https://broadcast.mytvtogo.net/SciFiTV4u/SciFiTV4u/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-28
+    mpv https://dai.google.com/linear/hls/event/8JiQCLfVQw6d7uCYt0qDJg/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-29
+    mpv https://playoutengine.sinclairstoryline.com/playout/242b1153-0129-484e-8ec8-378edd691537.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-30
+    mpv https://tve-live-lln.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-31
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxthearchive/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-32
+    mpv https://carolburnett-roku.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-33
+    mpv https://dai.google.com/linear/hls/event/v51OvZmXQOizl-KOgpXw1Q/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-34
+    mpv https://edge.taghtia.com/sa/3.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-35
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvsmystery/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-36
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvsclassicmovies/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-37
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvsfrontpagedetective/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-38
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvshollywoohistory/mono.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-39
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvshorror/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-40
+    mpv https://rpn1.bozztv.com/36bay2/gusa-TVSInspirationalNetwork/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-41
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvsmainst/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-42
+    mpv https://rpn1.bozztv.com/36bay2/gusa-nostalgia/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-43
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvsNostalgiaMovies/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-44
+    mpv https://rpn1.bozztv.com/36bay2/gusa-petparadenetwork/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-45
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvsgameshow/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-46
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvstallyho/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-47
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tavern/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-48
+    mpv https://rpn1.bozztv.com/36bay2/gusa-tvswesternmovies/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-49
+    mpv https://tve-live-lln.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto classic
+  :switch-case-C-50
+    pause
+    cls
+    goto start
