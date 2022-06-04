@@ -364,16 +364,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Classic Category
   echo.
-  echo 1. 247RetroTV                11. HonorTV                 21. DoctorWhoClassic    31. TCMWest                 41. TVSInspirationalNetwork
-  echo 2. ChickenSoupForTheSoul     12. JohnnyCarsonTV          22. PlutoTVSeriesRetro  32. TheArchive              42. TVSMainstreet
-  echo 3. CinevaultWesterns         13. KocowaClassic           23. TheLoveBoat         33. TheCarolBurnettShow     43. TVSNostalgia
-  echo 4. ClassicCinema             14. LoneStar                24. QwestTVClassical    34. TheTimConwayShow        44. TVSNostalgiaMovies
-  echo 5. ClassicTV4U               15. PersianaClassic         25. RetroCartoon        35. ThikrayatTV             45. TVSPetParadeNetwork
-  echo 6. DickCavett                16. PersianaNostalgia       26. RotanaCartoon       36. TVSCipherNetwork        46. TVSQuizShowNetwork
-  echo 7. DubaiZaman                17. BeverlyHillbillies      27. RotanaClassic       37. TVSClassicMovies        47. TVSTallyHo
-  echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. SciFi4U             38. TVSFrontPageDetective   48. TVSTavern
-  echo 9. FolkTV                    19. ClassicTVComedy         29. STIRFamily          39. TVSHollywoodHistory     49. TVSWesternMovie
-  echo 10. GoldenTV                 20. ClassicTVDrama          30. TCMEast             40. TVSHorrorNetwork        50. Exit
+  echo 1. 247RetroTV                11. HonorTV                 21. DoctorWhoClassic    31. TheArchive              41. TVSMainstreet
+  echo 2. ChickenSoupForTheSoul     12. JohnnyCarsonTV          22. PlutoTVSeriesRetro  32. TheCarolBurnettShow     42. TVSNostalgia
+  echo 3. CinevaultWesterns         13. KocowaClassic           23. TheLoveBoat         33. TheTimConwayShow        43. TVSNostalgiaMovies
+  echo 4. ClassicCinema             14. LoneStar                24. QwestTVClassical    34. ThikrayatTV             44. TVSPetParadeNetwork 
+  echo 5. ClassicTV4U               15. PersianaClassic         25. RetroCartoon        35. TVSCipherNetwork        45. TVSQuizShowNetwork
+  echo 6. DickCavett                16. PersianaNostalgia       26. RotanaClassic       36. TVSClassicMovies        46. TVSTallyHo
+  echo 7. DubaiZaman                17. BeverlyHillbillies      27. SciFi4U             37. TVSFrontPageDetective   47. TVSTavern
+  echo 8. FilmRiseClassicTV         18. ClassicMoviesChannel    28. STIRFamily          38. TVSHollywoodHistory     48. TVSWesternMovie
+  echo 9. FolkTV                    19. ClassicTVComedy         29. TCMEast             39. TVSHorrorNetwork        49. Exit
+  echo 10. GoldenTV                 20. ClassicTVDrama          30. TCMWest             40. TVSInspirationalNetwork        
   echo.
   set /p CHSSS=(ex:1,2,3) : 
   
@@ -391,7 +391,7 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto classic
   :switch-case-C-2
-    mpv http://hlsdpi-cdn-chqtx02.totalstream.net/dpilive/247retro/ret/dai/playlist.m3u8
+    mpv https://dai.google.com/linear/hls/event/2C5P0JGUSj65s8KpeyIDcQ/master.m3u8
     echo Stop Playing
     pause
     cls
@@ -408,135 +408,137 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto classic
-  :switch-case-C-4
+  :switch-case-C-5
     mpv https://broadcast.mytvtogo.net/classictv4u/classictv4u/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-5
+  :switch-case-C-6
     mpv https://dai.google.com/linear/hls/event/-NacIpMDTZ2y1bhkJN96Vg/master.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-6
+  :switch-case-C-7
     mpv https://dmiffthvll.cdn.mangomolo.com/dubaizaman/smil:dubaizaman.stream.smil/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-7
+  :switch-case-C-8
     mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassictv/CDN/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-8
+  :switch-case-C-9
     mpv https://584b0aa350b92.streamlock.net/folk-tv/myStream.sdp/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-9
+  :switch-case-C-10
     mpv https://rpn1.bozztv.com/36bay2/gusa-goldentv/mono.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-10
+  :switch-case-C-11
     mpv https://a.jsrdn.com/broadcast/d5b48/+0000/c.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-11
+  :switch-case-C-12
     mpv https://johnnycarson-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-johnnycarson-redbox/CDN/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-12
+  :switch-case-C-13
     mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-rokukocowa/CDN/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-13
+  :switch-case-C-14
     mpv https://lonestar-rakuten.amagi.tv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-14
+  :switch-case-C-15
     mpv http://51.210.199.26/hls/stream.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-15
+  :switch-case-C-16
     mpv http://51.210.199.20/hls/stream.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-16
+  :switch-case-C-17
     mpv https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5db81695a95186000941ee8b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-17
+  :switch-case-C-18
     mpv http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d134a74ca91eedee1630faa/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d134a74ca91eedee1630faa&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=903&terminate=false&userId=
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-18
+  :switch-case-C-19
     mpv https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f15e32b297f96000768f928/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-19
+  :switch-case-C-20
     mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f15e3cccf49290007053c67/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f15e3cccf49290007053c67&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=520&terminate=false&userId=
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-20
+  :switch-case-C-21
     mpv https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ce4475cd43850831ca91ce7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-21
+  :switch-case-C-22
     mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de802659167b10009e7deba/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-22
+  :switch-case-C-23
     mpv https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f7794a788d29000079d2f07/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-23
+  :switch-case-C-24
     mpv https://cdn-ue1-prod.tsv2.amagi.tv/linear/qwestAAAA-qwestclassic-uk-samsungtv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-24
+  :switch-case-C-25
     mpv https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
-  :switch-case-C-25
+  :switch-case-C-26
     mpv https://shls-rotanaclassic-prod-dub.shahid.net/out/v1/4eebed211c8441228321b4f67a46c5a5/index.m3u8
     echo Stop Playing
     pause
     cls
     goto classic
+  :switch-case-C-27
+    mpv 
