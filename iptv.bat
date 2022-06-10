@@ -733,19 +733,43 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto comedy
   :switch-case-Y-5
-    mpv https://playout4multirtmp.tulix.tv/live7/Stream1/playlist.m3u8
-    echo Stop Playing
-    pause
-    cls
-    goto comedy
-  :switch-case-Y-6
     mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5db6a56ce10f0b0009e64037/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5db6a56ce10f0b0009e64037&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=4f8f5d53-0580-11eb-8b9f-0242ac110002&terminate=false&userId=
     echo Stop Playing
     pause
     cls
     goto comedy
-  :switch-case-Y-7
+  :switch-case-Y-6
     mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1abce155a03d0007718834/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f1abce155a03d0007718834&deviceLat=41.1167&deviceLon=1.2500&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=ES&serverSideAds=false&sid=505&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-7
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d4947590ba40f75dc29c26b/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d4947590ba40f75dc29c26b&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=400&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-8
+    mpv https://uksono1-samsunguk.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-9
+    mpv https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo-host-comedydynamics/CDN/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-10
+    mpv https://a.jsrdn.com/broadcast/e29bdbbbf3/+0000/c.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-11
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfunnyordie/CDN/playlist.m3u8
     echo Stop Playing
     pause
     cls
