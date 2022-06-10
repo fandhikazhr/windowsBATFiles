@@ -774,4 +774,58 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto comedy
+  :switch-case-Y-12
+    mpv http://216.66.42.47:7777/GemComedy_HD.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-13
+    mpv https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-DistroTV/152.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-14
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-viziojustforlaughsgags/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-15
+    mpv http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60afa1508284e60007163c08/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fcc6e0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a8b6a6bb-4f8c-438e-a638-d4cfa72ae69a
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-16
+    mpv http://103.199.161.254/Content/kalaignarsirippoli/Live/Channel(Kalaignarsirippoli)/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-17
+    mpv https://mst3k-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-mst3k/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-18
+    mpv https://mst3k-vizio.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-19
+    mpv http://45.145.32.11:20007/paramount_comedy/video.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-Y-20
+    mpv http://51.210.199.27/hls/stream.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
   
