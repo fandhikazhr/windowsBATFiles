@@ -682,3 +682,19 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto start
+
+:switch-case-K-4
+  :comedy
+  cls
+  echo Comedy Category
+  echo.
+  echo 1. AFV                       11. FunnyorDie                  21. PlutoTVClassicTVUK              31. KevinHartsLOLNetwork
+  echo 2. AFVenEspanol              12. GEMComedy                   22. PlutoTVComedieFrance            32. RiffTrax
+  echo 3. ArmeniaKomedi             13. HumorMill                   23. PlutoTVComedy                   33. PlutoTVSeriesComedia
+  echo 4. CameraSmileTV             14. JustforLaughsGags           24. ComedyCentralPlutoTV            34. PlutoTVSitcomsGermany
+  echo 5. PlutoTVCats247Germany     15. JustepourRire               25. ComedyCentralMadeinGermany      35. PlutoTVStandUpUK
+  echo 6. ComediaMadeinSpain        16. SirippoliTV                 26. ComedyCentralAnimation          36. TVLandSitcoms
+  echo 7. ComedyCentralEast         17. MST3K                       27. PlutoTVComedyCentralLatino      37. RedboxComedy
+  echo 8. ComedyChannel             18. MysteryScienceTheater3000   28. FailArmy                        38. SlightlyOffIFC
+  echo 9. ComedyDynamics            19. ParamountComedyRussia       29. FunnyAF                         39. SoloStandUp
+  echo 10. DryBarComedy             20. PersianaComedy              30. PlutoTVKenanyKel                40. TVMaticComedy
