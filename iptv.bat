@@ -1014,11 +1014,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     echo Stop Playing
     pause
     cls
-    goto comedy
+    goto cooking
   :switch-case-G-2
     mpv https://rpn1.bozztv.com/36bay2/gusa-chefchampion/mono.m3u8
     echo Stop Playing
     pause
     cls
-    goto comedy
-  
+    goto cooking
+  :switch-case-G-3
+    mpv https://rpn1.bozztv.com/36bay2/gusa-chefrock/mono.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-4
+    mpv https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
