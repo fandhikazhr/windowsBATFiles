@@ -1093,3 +1093,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto cooking
+  :switch-case-G-15
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxsoyummy/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-16
+    mpv https://tastemade-gb.samsung.wurl.com/manifest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  
