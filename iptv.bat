@@ -1141,3 +1141,7 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto cooking
+  :switch-case-G-23
+    pause
+    cls
+    goto start
