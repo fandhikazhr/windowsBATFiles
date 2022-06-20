@@ -984,3 +984,21 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     goto start
     
     
+:switch-case-K-5
+  :cooking
+  cls
+  echo Cooking Category
+  echo.
+  echo 1. Bonappetit                11. BBCFood                     21. TastemadeFrance
+  echo 2. ChefChampion              12. FoodTV                      22. TastemadeTravel
+  echo 3. ChefRocShow               13. GordonRamsaysHellsKitchen   23. Exit
+  echo 4. CookingPanda              14. SBSFood
+  echo 5. FilmRiseHellsKitchen      15. SoYummy
+  echo 6. Food52                    16. TastemadeUK
+  echo 7. GustoTV                   17. Tastemade
+  echo 8. Hungry                    18. TastemadeAustralia
+  echo 9. iFoodTV                   19. TastemadeBrazil
+  echo 10. AmericasTestKitchen      20. TastemadeenEspanol
+  echo.
+  set /p CHSSSSS=(ex:1,2,3) :
+  
