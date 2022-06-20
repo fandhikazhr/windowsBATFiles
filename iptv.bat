@@ -1129,4 +1129,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto cooking
-    
+  :switch-case-G-21
+    mpv https://tastemadefr16min-redbox.amagi.tv/hls/amagi_hls_data_tastemade-tastemadefreetv16-redbox/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-22
+    mpv https://tastemadetravel-vizio.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
