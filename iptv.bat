@@ -1075,3 +1075,21 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto cooking
+  :switch-case-G-12
+    mpv http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf930548ff9b00090d5686/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf930548ff9b00090d5686&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=500&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-13
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b4e99f4423e067bd6df6903/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5b4e99f4423e067bd6df6903&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=294&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-14
+    mpv https://i.mjh.nz/au/Sydney/tv.320203000304.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
