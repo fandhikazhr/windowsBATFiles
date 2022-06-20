@@ -1002,3 +1002,23 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo.
   set /p CHSSSSS=(ex:1,2,3) :
   
+  call :switch-case-G-%CHSSSSS% 2>nul || (
+       :: Default Case
+       echo Wrong Choice
+       pause
+       cls
+       goto cooking
+  )
+  :switch-case-G-1
+    mpv https://bonappetit-samsung.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  :switch-case-G-2
+    mpv https://rpn1.bozztv.com/36bay2/gusa-chefchampion/mono.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto comedy
+  
