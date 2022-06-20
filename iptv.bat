@@ -1033,3 +1033,27 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto cooking
+  :switch-case-G-5
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisecooking/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-6
+    mpv https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1212A-redboxfood52A/CDN/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-7
+    mpv https://d3cajslujfq92p.cloudfront.net/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-8
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxhungry/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
