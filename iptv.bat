@@ -1118,3 +1118,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto cooking
   :switch-case-G-19
+    mpv https://tastemade-pt16intl-samsungbrazil.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+  :switch-case-G-20
+    mpv https://tastemade-es8intl-roku.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto cooking
+    
