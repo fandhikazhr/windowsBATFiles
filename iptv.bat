@@ -1227,4 +1227,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto culture
-  
+  :switch-case-T-11
+    mpv https://5790d294af2dc.streamlock.net/8150/8150/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
