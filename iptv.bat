@@ -1160,3 +1160,18 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo.
   echo /p CHSSSSSS=(ex:1,2,3) :
   
+  call :switch-case-T-%CHSSSSSS% 2>nul || (
+       :: Default Case
+       echo Wrong Choice
+       pause
+       cls
+       goto culture
+  )
+  :switch-case-T-1
+    mpv https://5eae379fb77bb.streamlock.net/eduardo555/eduardo555/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+  
+  
