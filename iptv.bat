@@ -1233,3 +1233,26 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto culture
+  :switch-case-T-12
+    mpv https://cultural-crtvg.flumotion.com/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+  :switch-case-T-13
+    mpv https://v2.tustreaming.cl/zizatv/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+  :switch-case-T-14
+    mpv http://ott-cdn.ucom.am/s16/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+  :switch-case-T-15
+    pause
+    cls
+    goto start
+  
