@@ -1185,4 +1185,11 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto culture
-  
+  :switch-case-T-4
+    mpv http://fox-foxsoul-roku.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+  :switch-case-T-5
+    mpv https://a.jsrdn.com/broadcast/9c897f1973/+0000/c.m3u8
