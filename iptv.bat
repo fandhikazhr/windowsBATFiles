@@ -1204,3 +1204,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto culture
   :switch-case-T-7
+    mpv http://streams.livetv.az/azerbaijan/medeniyyet_stream2/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+  :switch-case-T-8
+    mpv https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-en-plex/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+    
