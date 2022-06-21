@@ -1215,4 +1215,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto culture
-    
+  :switch-case-T-9
+    mpv https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
