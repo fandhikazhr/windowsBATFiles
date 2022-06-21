@@ -1145,3 +1145,18 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto start
+
+
+:switch-case-K-6
+  :culture
+  cls
+  echo Culture Category
+  echo.
+  echo 1. Canal33           6. MetroGlobeNetwork        11. TeleCulturelleMedias
+  echo 2. Cultura24         7. MedeniyyetTV             12. TVGCultural
+  echo 3. CulturaOnline     8. MuseumTVFast             13. ZizaTV
+  echo 4. FoxSoul           9. NHKWorldJapan            14. RussiaK
+  echo 5. KweliTV           10. PlutoTVCineSuspenso     15. Exit
+  echo.
+  echo /p CHSSSSSS=(ex:1,2,3) :
+  
