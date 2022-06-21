@@ -1173,5 +1173,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto culture
-  
+  :switch-case-T-2
+    mpv https://vs8.live.opencaster.com/cultura24/smil:cultura24/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
+  :switch-case-T-3
+    mpv https://v2.tustreaming.cl/culturaonline/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto culture
   
