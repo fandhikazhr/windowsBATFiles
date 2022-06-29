@@ -1335,4 +1335,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
-    
+  :switch-case-Q-10
+    mpv https://hlsliveamdgl0-lh.akamaihd.net/i/hlsdvrlive_1@60531/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-11
+    mpv http://lawandcrime.samsung.wurl.com/manifest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-12
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-13
