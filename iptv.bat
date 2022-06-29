@@ -1256,3 +1256,18 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto start
   
+:switch-case-K-7
+  :documentary
+  cls
+  echo Documentary Category
+  echo.
+  echo 1. CCTV9                         11. LawCrime                        21. PersianaDocumentary         31. VoyagerDocumentaries
+  echo 2. CGNTDocumentary               12. LawCrimeXUMO                    22. PlutoTVAnimalsUK            32. Reelz
+  echo 3. CourtTV                       13. MagellanTV                      23. PlutoTVAnimalsUS            33. ReelzChannelXUMO
+  echo 4. Crime360                      14. MonarchChannel                  24. PlutoTVBiographyUK          34. RTDocumentary
+  echo 5. CrimeTime                     15. NationalGeographicRussia        25. PlutoTVCelebrity            35. RTDoc
+  echo 6. DallasCowboysCheerleaders     16. NationalGeographicAbuDhabi      26. PlutoTVDocumentaries        36. SwordandShield
+  echo 7. Docurama                      17. NationalGeographicAsia          27. ForensicFiles               37. ViasatExplore
+  echo 8. HDL                           18. NationalGeographicJapan         28. PlutoTVInsideGermany        38. ViasatHistory
+  echo 9. HistoryEast                   19. NationalGeographicWildAsia      29. PlutoTVInvestigationFrance  39. ViasatNature
+  echo 10. La2                          20. NationalGeographicWildRussia    30. SklillsPlusThrills          40. Exit
