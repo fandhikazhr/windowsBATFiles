@@ -1354,3 +1354,26 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto documentary
   :switch-case-Q-13
+    mpv https://dai.google.com/linear/hls/event/5xreV3X4T9WxeIbrwOmdMA/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-14
+    mpv https://a.jsrdn.com/broadcast/0c9a09c94c/+0000/c.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-15
+    mpv https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-16
+    mpv https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
