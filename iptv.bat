@@ -1389,3 +1389,28 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
+  :switch-case-Q-19
+    mpv https://livecdn.fptplay.net/hda3/natgeowild_vhls.smil/chunklist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-20
+    mpv https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-21
+    mpv http://51.210.199.23/hls/stream.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-22
+    mpv http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddf8ea0d000120009bcad83/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ddf8ea0d000120009bcad83&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=550&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  
