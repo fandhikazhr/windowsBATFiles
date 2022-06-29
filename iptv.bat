@@ -1271,3 +1271,39 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 8. HDL                           18. NationalGeographicJapan         28. PlutoTVInsideGermany        38. ViasatHistory
   echo 9. HistoryEast                   19. NationalGeographicWildAsia      29. PlutoTVInvestigationFrance  39. ViasatNature
   echo 10. La2                          20. NationalGeographicWildRussia    30. SklillsPlusThrills          40. Exit
+  echo.
+  echo /p CHQ=(ex:1,2,3) :
+  
+  call :switch-case-Q-%CHQ% 2>nul || (
+       :: Default Case
+       echo Wrong Choice
+       pause
+       cls
+       goto culture
+  )
+  :switch-case-Q-1
+    mpv http://39.134.115.163:8080/PLTV/88888910/224/3221225646/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-2
+    mpv http://39.135.138.59:18890/PLTV/88888910/224/3221225645/index.m3u8
+    echo Stop Playing
+    pause
+    cls\
+    goto documentary
+  :switch-case-Q-3
+    mpv https://cdn-katz-networks-01.vos360.video/Content/HLS/Live/channel(courttv)/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-4
+    mpv https://aenetworks-crime360-1.samsung.wurl.com/manifest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+    
+    
