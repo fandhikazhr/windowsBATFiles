@@ -1377,3 +1377,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
+  :switch-case-Q-17
+    mpv https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-18
+    mpv http://cdn.us195.jpnettv.live:1935/jptv/National_geographic/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
