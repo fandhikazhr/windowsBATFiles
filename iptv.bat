@@ -1443,3 +1443,28 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
+  :switch-case-Q-28
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d767b4889bca2ce7b73ef2e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d767b4889bca2ce7b73ef2e&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=303&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-29
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96b8f4f1ca3f0629f4bf1/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5cf96b8f4f1ca3f0629f4bf1&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=936&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-30
+    mpv https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6000a6f4c3f8550008fc9b91/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-31
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/589aa03df9ba56a84197a560/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=589aa03df9ba56a84197a560&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=681&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+    
