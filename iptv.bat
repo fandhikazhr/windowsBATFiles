@@ -1491,3 +1491,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
+  :switch-case-Q-36
+    mpv https://a.jsrdn.com/broadcast/9e63a1b236/+0000/c.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
