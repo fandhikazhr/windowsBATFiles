@@ -1485,3 +1485,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
+  :switch-case-Q-35
+    mpv http://uiptv.do.am/1ufc/300663722/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
