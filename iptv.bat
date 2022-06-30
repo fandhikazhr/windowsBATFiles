@@ -1467,4 +1467,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
-    
+  :switch-case-Q-32
+    mpv https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Reelz.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
+  :switch-case-Q-33
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxreelzchannel/CDN/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
