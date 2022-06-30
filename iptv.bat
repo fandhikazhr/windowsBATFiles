@@ -1509,4 +1509,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
-
+  :switch-case-Q-39
+    mpv https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
