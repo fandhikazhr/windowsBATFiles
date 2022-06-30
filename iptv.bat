@@ -1515,3 +1515,8 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
+  :switch-case-Q-40
+    pause
+    cls
+    goto start
+    
