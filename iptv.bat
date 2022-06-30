@@ -1479,3 +1479,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto documentary
+  :switch-case-Q-34
+    mpv https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto documentary
