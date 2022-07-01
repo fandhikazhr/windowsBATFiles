@@ -1520,3 +1520,5 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto start
     
+:switch-case-K-8
+  :education
