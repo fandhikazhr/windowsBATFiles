@@ -1522,3 +1522,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     
 :switch-case-K-8
   :education
+  cls
+  echo Education Category
+  echo.
+  echo 1. AlyamanShabab
+  echo 2. BeachTVCSULB
+  
