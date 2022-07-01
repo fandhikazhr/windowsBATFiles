@@ -1527,4 +1527,6 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo.
   echo 1. AlyamanShabab
   echo 2. BeachTVCSULB
-  
+  echo 3. BumblebeeTVNowYouKnow
+  echo 4. CCTV10
+  echo 5. CloudflareTV
