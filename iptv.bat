@@ -1525,14 +1525,14 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Education Category
   echo.
-  echo 1. AlyamanShabab             11. MINEDUIPTV1
-  echo 2. BeachTVCSULB              12. MINEDUIPTV2
-  echo 3. BumblebeeTVNowYouKnow     13. NASATVMedia
-  echo 4. CCTV10                    14. NASATVPublic
-  echo 5. CloudflareTV              15. NHKEducationalTV
-  echo 6. EducaTV                   16. PBSKidsAlaska
-  echo 7. Eduvision                 17. PBSKidsEasternCentral
-  echo 8. Futura                    18. PBSKidsHawaii
-  echo 9. LeominsterTVEducational   19. PBSKidsMountain
-  echo 10. LINKTVEducation          20. PBSKidsPacific
+  echo 1. AlyamanShabab             11. MINEDUIPTV1             21. MPT
+  echo 2. BeachTVCSULB              12. MINEDUIPTV2             22. PBSEast
+  echo 3. BumblebeeTVNowYouKnow     13. NASATVMedia             23. PBSWest
+  echo 4. CCTV10                    14. NASATVPublic            24. WorldChannel
+  echo 5. CloudflareTV              15. NHKEducationalTV        25. RedeMinas
+  echo 6. EducaTV                   16. PBSKidsAlaska           26. SantaCeciliaTV
+  echo 7. Eduvision                 17. PBSKidsEasternCentral   27. TVMackenzie
+  echo 8. Futura                    18. PBSKidsHawaii           28. TVUFG
+  echo 9. LeominsterTVEducational   19. PBSKidsMountain         29. TVE
+  echo 10. LINKTVEducation          20. PBSKidsPacific          30. TVUniversidad
   
