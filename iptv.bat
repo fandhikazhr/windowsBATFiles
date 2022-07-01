@@ -1530,3 +1530,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 3. BumblebeeTVNowYouKnow
   echo 4. CCTV10
   echo 5. CloudflareTV
+  echo 6. EducaTV
+  echo 7. Eduvision
+  echo 8. Futura
+  echo 9. LeominsterTVEducational
+  echo 10. LINKTVEducation
+  
