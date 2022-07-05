@@ -1535,4 +1535,13 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 8. Futura                    18. PBSKidsHawaii           28. TVUFG
   echo 9. LeominsterTVEducational   19. PBSKidsMountain         29. TVE
   echo 10. LINKTVEducation          20. PBSKidsPacific          30. TVUniversidad
+  echo.
+  echo /p CHW=(ex:1,2,3) :
   
+  call :switch-case-W-%CHW% 2>nul || (
+       :: Default Case
+       echo Wrong Choice
+       pause
+       cls
+       goto education
+  )
