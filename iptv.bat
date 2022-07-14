@@ -1551,5 +1551,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
-  
+  :switch-case-W-2
+    mpv http://stream04.amp.csulb.edu:1935/Beach_TV/smil:BeachTV.smil/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-3
+    mpv https://stitcheraws.unreel.me/wse-node01.powr.com/live/5b284f40d5eeee07522b775e/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-4
+    mpv http://39.134.115.163:8080/PLTV/88888910/224/3221225636/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
   
