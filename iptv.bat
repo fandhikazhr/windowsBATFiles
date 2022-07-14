@@ -1569,4 +1569,21 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
-  
+  :switch-case-W-5
+    mpv https://cloudflare.tv/hls/live.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-6
+    mpv https://cloud7.streamingcnt.net/cnt/educa/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-7
+    mpv http://66.240.236.25:1936/eduvision/eduvision/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
