@@ -1599,3 +1599,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-10
+    mpv http://80tv.lincoln.ne.gov/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
