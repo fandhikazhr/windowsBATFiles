@@ -1587,3 +1587,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-8
+    mpv https://tv.unisc.br/hls/test.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-9
+    mpv http://edu.leominster.tv/Edu/smil:Edu.smil/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
