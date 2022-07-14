@@ -1617,3 +1617,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-13
+    mpv https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
