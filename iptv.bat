@@ -1605,3 +1605,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-11
+    mpv http://iptv.perueduca.pe:1935/canal1/canal11/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-12
+    mpv http://iptv.perueduca.pe:1935/canal2/canal22/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
