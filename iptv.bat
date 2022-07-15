@@ -1630,4 +1630,14 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto education
   :switch-case-W-15
-    mpv 
+    mpv https://cdn.us195.jpnettv.live/jptv/kanto_nhk_edu_540/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-16
+    mpv https://livestream.pbskids.org/out/v1/2963202df0c142c69b5254a546473308/akst.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
