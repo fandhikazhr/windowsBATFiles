@@ -1653,3 +1653,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-19
+    mpv https://livestream.pbskids.org/out/v1/00a3b9014fa54c40bee6ca68a104a8a4/mst.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-20
+    mpv https://livestream.pbskids.org/out/v1/c707b9310f2848de849b336f9914adbc/pst.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+    
