@@ -1629,3 +1629,5 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-15
+    mpv 
