@@ -1665,4 +1665,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
-    
+  :switch-case-W-21
+    mpv https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
