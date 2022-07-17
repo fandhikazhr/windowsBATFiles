@@ -1677,3 +1677,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-23
+    mpv https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
