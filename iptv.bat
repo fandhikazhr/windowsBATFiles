@@ -1725,3 +1725,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-31
+    mpv https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-32
+    mpv http://unitvaovivo.ufrgs.br:8080/live.ogg
+    echo Stop Playing
+    pause
+    cls
+    goto education
