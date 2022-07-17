@@ -1695,4 +1695,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
-
+  :switch-case-W-26
+    mpv http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
