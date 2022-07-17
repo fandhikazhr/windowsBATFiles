@@ -1737,3 +1737,10 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-33
+    mpv http://88b9da48.kazmazpaz.ru/iptv/D7M94NBVB5DLFS/512/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  
