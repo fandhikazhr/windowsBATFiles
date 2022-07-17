@@ -1713,4 +1713,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
-
+  :switch-case-W-29
+    mpv http://selpro1348.procergs.com.br:1935/tve/stve/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
