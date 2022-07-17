@@ -1719,3 +1719,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-30
+    mpv https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
