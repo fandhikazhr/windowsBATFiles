@@ -1701,3 +1701,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-27
+    mpv https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
