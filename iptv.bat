@@ -1683,3 +1683,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto education
+  :switch-case-W-24
+    mpv https://cs.ebmcdn.net/eastbay-live-hs-1/apt/mp4:apt-world/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+  :switch-case-W-25
+    mpv https://v4-slbps-sambavideos.akamaized.net/live/3282,8114,ec4b5a296d97fa99bf990662f5b4f8e1;base64np;Mc8VDxqNjXKCAf8!/amlst:Mc_tFgfGiHOdQXPB/chunklist_.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto education
+
