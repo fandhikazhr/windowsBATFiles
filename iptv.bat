@@ -1747,3 +1747,30 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto start
+
+:switch-case-K-9
+  :entertainment
+  cls
+  echo Entertainment Category
+  echo.
+  echo 1. 2x2
+  echo 2. 3TamilTV
+  echo 3. 9Volna
+  echo 4. 9Volna
+  echo 5. 30ASidewalks
+  echo 6. black
+  echo 7. red
+  echo 8. AathavanTV
+  echo 9. AbsoluteRealitybyWETV
+  echo 10. AFNTV
+  echo 11. AlraiTV
+  echo 12. AMCPresents
+  echo 13. AmritaTV
+  echo 14. AntaresTelevision
+  echo 15. ARTEDeutsch
+  echo 16. ARTEFrench
+  echo 17. AsianetMiddleEast
+  echo 18. AudioDungeon
+  echo 19. BOneTV
+  echo 20. BlazeTV
+  
