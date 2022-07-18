@@ -1753,24 +1753,24 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Entertainment Category
   echo.
-  echo 1. 2x2
-  echo 2. 3TamilTV
-  echo 3. 9Volna
-  echo 4. 9Volna
-  echo 5. 30ASidewalks
-  echo 6. black
-  echo 7. red
-  echo 8. AathavanTV
-  echo 9. AbsoluteRealitybyWETV
-  echo 10. AFNTV
-  echo 11. AlraiTV
-  echo 12. AMCPresents
-  echo 13. AmritaTV
-  echo 14. AntaresTelevision
-  echo 15. ARTEDeutsch
-  echo 16. ARTEFrench
-  echo 17. AsianetMiddleEast
-  echo 18. AudioDungeon
-  echo 19. BOneTV
-  echo 20. BlazeTV
+  echo 1. 2x2                       21. BounceXL                    41. DemandAfrica
+  echo 2. 3TamilTV                  22. BumblebeeTVThinknoodles     42. DemandAfricaMexico
+  echo 3. 9Volna                    23. Buzzr                       43. DocuBayTV
+  echo 4. 9Volna                    24. CableHits                   44. DreamzTV
+  echo 5. 30ASidewalks              25. CaptainTV                   45. DumTVKannada
+  echo 6. black                     26. CCTV3                       46. E24
+  echo 7. red                       27. CentralTV                   47. EETTV
+  echo 8. AathavanTV                28. Circle                      48. ElectricNow
+  echo 9. AbsoluteRealitybyWETV     29. ClassicRerunsTV             49. Enter10Bangla
+  echo 10. AFNTV                    30. CloudserverLatamCSTV        50. EstrellaTVEast
+  echo 11. AlraiTV                  31. ColosalTV                   51. ETLive
+  echo 12. AMCPresents              32. Comet                       52. FaktMarathi
+  echo 13. AmritaTV                 33. CONtv
+  echo 14. AntaresTelevision        34. CribsMaisonsDeStarsFrance
+  echo 15. ARTEDeutsch              35. CrossingCanalIPTV
+  echo 16. ARTEFrench               36. CWSeed
+  echo 17. AsianetMiddleEast        37. Dabangg
+  echo 18. AudioDungeon             38. DarshanaTV
+  echo 19. BOneTV                   39. DDMalayalam
+  echo 20. BlazeTV                  40. DDNational
   
