@@ -1753,24 +1753,24 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Entertainment Category
   echo.
-  echo 1. 2x2                       21. BounceXL                    41. DemandAfrica            61. Humor247
-  echo 2. 3TamilTV                  22. BumblebeeTVThinknoodles     42. DemandAfricaMexico      62. IGN
-  echo 3. 9Volna                    23. Buzzr                       43. DocuBayTV               63. ImayamTV
-  echo 4. 9Volna                    24. CableHits                   44. DreamzTV                64. ITCTV
-  echo 5. 30ASidewalks              25. CaptainTV                   45. DumTVKannada            65. JaihindTV
-  echo 6. black                     26. CCTV3                       46. E24                     66. KairaliTV
-  echo 7. red                       27. CentralTV                   47. EETTV                   67. KairaliWe
-  echo 8. AathavanTV                28. Circle                      48. ElectricNow             68. KasthuriTV
-  echo 9. AbsoluteRealitybyWETV     29. ClassicRerunsTV             49. Enter10Bangla           69. KCLTV
-  echo 10. AFNTV                    30. CloudserverLatamCSTV        50. EstrellaTVEast          70. KeralaVision
-  echo 11. AlraiTV                  31. ColosalTV                   51. ETLive                  71. KFPHDT3
-  echo 12. AMCPresents              32. Comet                       52. FaktMarathi             72. Kix
-  echo 13. AmritaTV                 33. CONtv                       53. FazaTV                  73. MetroTVHD
-  echo 14. AntaresTelevision        34. CribsMaisonsDeStarsFrance   54. FidoTV                  74. LatinoKids
-  echo 15. ARTEDeutsch              35. CrossingCanalIPTV           55. FlowersTV               75. LemarTV
-  echo 16. ARTEFrench               36. CWSeed                      56. FoodFood                76. M6
-  echo 17. AsianetMiddleEast        37. Dabangg                     57. FunoonTV                77. MagnavisionTV
-  echo 18. AudioDungeon             38. DarshanaTV                  58. GameShowNetworkEast     78. Manoto
-  echo 19. BOneTV                   39. DDMalayalam                 59. HDMedia                 79. MazhavilManorama
+  echo 1. 2x2                       21. BounceXL                    41. DemandAfrica            61. Humor247            81. MidnightPulp
+  echo 2. 3TamilTV                  22. BumblebeeTVThinknoodles     42. DemandAfricaMexico      62. IGN                 82. MinecrafTV
+  echo 3. 9Volna                    23. Buzzr                       43. DocuBayTV               63. ImayamTV            83. MKTV
+  echo 4. 9Volna                    24. CableHits                   44. DreamzTV                64. ITCTV               84. NCV
+  echo 5. 30ASidewalks              25. CaptainTV                   45. DumTVKannada            65. JaihindTV           85. NegahTV
+  echo 6. black                     26. CCTV3                       46. E24                     66. KairaliTV           86. OmideIranTV
+  echo 7. red                       27. CentralTV                   47. EETTV                   67. KairaliWe           87. OneTV
+  echo 8. AathavanTV                28. Circle                      48. ElectricNow             68. KasthuriTV          88. PeopleareAwesomeUS
+  echo 9. AbsoluteRealitybyWETV     29. ClassicRerunsTV             49. Enter10Bangla           69. KCLTV               89. QuattroTV
+  echo 10. AFNTV                    30. CloudserverLatamCSTV        50. EstrellaTVEast          70. KeralaVision        90. RetroMagico
+  echo 11. AlraiTV                  31. ColosalTV                   51. ETLive                  71. KFPHDT3             91. RockEntertainment
+  echo 12. AMCPresents              32. Comet                       52. FaktMarathi             72. Kix                 92. SanaTV
+  echo 13. AmritaTV                 33. CONtv                       53. FazaTV                  73. MetroTVHD           93. SpydarTV
+  echo 14. AntaresTelevision        34. CribsMaisonsDeStarsFrance   54. FidoTV                  74. LatinoKids          94. YoungHollywood
+  echo 15. ARTEDeutsch              35. CrossingCanalIPTV           55. FlowersTV               75. LemarTV             95. YourTimeTV
+  echo 16. ARTEFrench               36. CWSeed                      56. FoodFood                76. M6                  96. TNT
+  echo 17. AsianetMiddleEast        37. Dabangg                     57. FunoonTV                77. MagnavisionTV       97. TNTInternational
+  echo 18. AudioDungeon             38. DarshanaTV                  58. GameShowNetworkEast     78. Manoto              98. U
+  echo 19. BOneTV                   39. DDMalayalam                 59. HDMedia                 79. MazhavilManorama    99. Exit
   echo 20. BlazeTV                  40. DDNational                  60. HighTimes               80. MazhavilManoramaHD
   
