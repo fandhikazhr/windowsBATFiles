@@ -1753,10 +1753,10 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Entertainment Category
   echo.
-  echo 1. 2x2                       21. BounceXL                    41. DemandAfrica
-  echo 2. 3TamilTV                  22. BumblebeeTVThinknoodles     42. DemandAfricaMexico
-  echo 3. 9Volna                    23. Buzzr                       43. DocuBayTV
-  echo 4. 9Volna                    24. CableHits                   44. DreamzTV
+  echo 1. 2x2                       21. BounceXL                    41. DemandAfrica            61. Humor247
+  echo 2. 3TamilTV                  22. BumblebeeTVThinknoodles     42. DemandAfricaMexico      62. IGN
+  echo 3. 9Volna                    23. Buzzr                       43. DocuBayTV               63. ImayamTV
+  echo 4. 9Volna                    24. CableHits                   44. DreamzTV                64. ITCTV
   echo 5. 30ASidewalks              25. CaptainTV                   45. DumTVKannada
   echo 6. black                     26. CCTV3                       46. E24
   echo 7. red                       27. CentralTV                   47. EETTV
