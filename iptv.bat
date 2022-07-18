@@ -1765,12 +1765,12 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 10. AFNTV                    30. CloudserverLatamCSTV        50. EstrellaTVEast
   echo 11. AlraiTV                  31. ColosalTV                   51. ETLive
   echo 12. AMCPresents              32. Comet                       52. FaktMarathi
-  echo 13. AmritaTV                 33. CONtv
-  echo 14. AntaresTelevision        34. CribsMaisonsDeStarsFrance
-  echo 15. ARTEDeutsch              35. CrossingCanalIPTV
-  echo 16. ARTEFrench               36. CWSeed
-  echo 17. AsianetMiddleEast        37. Dabangg
-  echo 18. AudioDungeon             38. DarshanaTV
-  echo 19. BOneTV                   39. DDMalayalam
-  echo 20. BlazeTV                  40. DDNational
+  echo 13. AmritaTV                 33. CONtv                       53. FazaTV
+  echo 14. AntaresTelevision        34. CribsMaisonsDeStarsFrance   54. FidoTV
+  echo 15. ARTEDeutsch              35. CrossingCanalIPTV           55. FlowersTV
+  echo 16. ARTEFrench               36. CWSeed                      56. FoodFood
+  echo 17. AsianetMiddleEast        37. Dabangg                     57. FunoonTV
+  echo 18. AudioDungeon             38. DarshanaTV                  58. GameShowNetworkEast
+  echo 19. BOneTV                   39. DDMalayalam                 59. HDMedia
+  echo 20. BlazeTV                  40. DDNational                  60. HighTimes
   
