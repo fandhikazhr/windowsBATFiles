@@ -4,7 +4,7 @@
 # Play On CMD
 <p>How to use :</p>
 
-1. First install mpv player on your windows operating system.
+1. First install [MPV](https://mpv.io/installation/) on your windows operating system.
 2. Add mpv installation folder to PATH.
 3. Install youtube-dl, with command `pip install youtube-dl`
 4. So you can run playOnCMD.bat file.
@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/99522867/168123101-4b0f18c7-d805-48c3-
 # IPTV CMD
 <p>How to use :</p>
 
-1. First install mpv player on your windows operating system.
+1. First install [MPV](https://mpv.io/installation/) on your windows operating system.
 2. Add mpv installation folder to PATH.
 3. So you can run playOnCMD.bat file.
 
