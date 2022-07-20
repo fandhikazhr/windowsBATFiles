@@ -1775,3 +1775,11 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 20. BlazeTV                  40. DDNational                  60. HighTimes               80. MazhavilManoramaHD
   echo.
   echo /p CHE=(ex:1,2,3) :
+  
+  call :switch-case-E-%CHE% 2>nul || (
+       :: Default Case
+       echo Wrong Choice
+       pause
+       cls
+       goto entertainment
+  )
