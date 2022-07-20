@@ -1795,3 +1795,10 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-3
+    mpv http://cdn-01.bonus-tv.ru:8080/9volna/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  
