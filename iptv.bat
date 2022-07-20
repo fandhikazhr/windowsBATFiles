@@ -1784,7 +1784,7 @@ call :switch-case-K-%CHOOSE% 2>nul || (
        goto entertainment
   )
   :switch-case-W-1
-    mpv https://master.starmena-cloud.com/hls/yemenshabab.m3u8
+    mpv https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
     echo Stop Playing
     pause
     cls
