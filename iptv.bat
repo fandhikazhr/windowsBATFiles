@@ -1783,10 +1783,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
        cls
        goto entertainment
   )
-  :switch-case-W-1
+  :switch-case-E-1
     mpv https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
-  
+  :switch-case-E-2
+    mpv https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
