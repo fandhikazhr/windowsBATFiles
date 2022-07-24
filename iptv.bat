@@ -1819,3 +1819,17 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-7
+    mpv https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-8
+    mpv http://45.77.66.224:1935/athavantv/live/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+    
+  
