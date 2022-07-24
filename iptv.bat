@@ -1801,4 +1801,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
-  
+  :switch-case-E-4
+    mpv http://ott-cdn.ucom.am/s10/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
