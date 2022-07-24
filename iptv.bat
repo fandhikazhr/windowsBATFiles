@@ -1831,5 +1831,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
-    
+  :switch-case-E-9
+    mpv https://amc-absolutereality-1.imdbtv.wurl.com/manifest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-10
+    mpv https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
   
