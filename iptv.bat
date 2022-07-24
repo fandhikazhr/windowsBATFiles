@@ -1807,3 +1807,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-5
+    mpv https://30a-tv.com/sidewalks.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-6
+    mpv https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
