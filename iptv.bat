@@ -1843,4 +1843,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
-  
+  :switch-case-E-11
+    mpv https://media.streambrothers.com:1936/8724/8724/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
