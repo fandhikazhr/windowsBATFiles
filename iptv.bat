@@ -1855,3 +1855,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-13
+    mpv http://103.199.161.254/Content/amrita/Live/Channel(Amrita)/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-14
+    mpv https://5c3fb01839654.streamlock.net:1963/iptvantares/liveantarestv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
