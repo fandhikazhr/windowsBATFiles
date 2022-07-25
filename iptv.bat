@@ -1867,3 +1867,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-15
+    mpv https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
