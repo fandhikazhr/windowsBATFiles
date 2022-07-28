@@ -1904,7 +1904,7 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto entertainment
   :switch-case-E-21
-    mpv https://theblaze4.akamaized.net/hls/live/699982/theblaze/cm-dvr/master.m3u8
+    mpv https://c217322ca48e4d1e98ab33fe41a5ed01.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung_BounceXL/playlist.m3u8
     echo Stop Playing
     pause
     cls
