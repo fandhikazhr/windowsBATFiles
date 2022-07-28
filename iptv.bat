@@ -1897,4 +1897,10 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-20
+    mpv https://theblaze4.akamaized.net/hls/live/699982/theblaze/cm-dvr/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
   
