@@ -1879,3 +1879,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-17
+    mpv http://14.199.164.20:4001/play/a0k6/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-18
+    mpv https://content.uplynk.com/channel/5688add7ce704ce1a27ab62bb44044b9.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-19
+    mpv http://178.33.237.146/rtnc1.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  
