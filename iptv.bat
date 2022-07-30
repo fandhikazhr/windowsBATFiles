@@ -1909,4 +1909,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-22
+    mpv https://2459f78c2f5d42c996bb24407b76877a.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/wse_powr_com_60f88620abf1e257404a9250/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-23
+    mpv https://buzzr-samsungus.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
   
