@@ -1951,4 +1951,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-29
+    mpv https://dai.google.com/linear/hls/event/wnQPvAN9QBODw9hP-H0rZA/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-30
+    mpv https://videostreaming.cloudserverlatam.com/CSTV/CSTV/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
   
