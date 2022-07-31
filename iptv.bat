@@ -1939,4 +1939,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-27
+    mpv https://5c3fb01839654.streamlock.net:1963/iptvcentraltv/livecentraltvtv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-28
+    mpv https://circle-roku.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
   
