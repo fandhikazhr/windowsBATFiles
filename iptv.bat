@@ -1999,3 +1999,9 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-37
+    mpv http://14.199.164.20:4001/play/a0nb/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
