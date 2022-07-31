@@ -1975,3 +1975,27 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-33
+    mpv https://contv-junction.cinedigm.com/ingest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-34
+    mpv http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/602cf8963b4bc90007454541/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8b08c0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5043513f-eb20-46fd-8286-9e9ba240e6f9
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-35
+    mpv https://vivo.solumedia.com:19360/crossing/crossing.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-36
+    mpv https://cwseedlive.cwtv.com/ingest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
