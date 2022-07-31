@@ -1927,4 +1927,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-25
+    mpv http://103.199.160.85/Content/captain/Live/Channel(Captain)/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-26
+    mpv http://39.134.115.163:8080/PLTV/88888910/224/3221225634/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
   
