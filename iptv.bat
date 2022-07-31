@@ -1921,4 +1921,10 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-24
+    mpv https://bk7l2w4nlx53-hls-live.5centscdn.com/AETV/514c04b31b5f01cf00dd4965e197fdda.sdp/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
   
