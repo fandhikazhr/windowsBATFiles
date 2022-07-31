@@ -1963,4 +1963,15 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
-  
+  :switch-case-E-31
+    mpv http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-32
+    mpv http://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
