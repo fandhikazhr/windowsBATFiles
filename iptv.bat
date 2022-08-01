@@ -2005,3 +2005,21 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-38
+    mpv https://content.uplynk.com/channel/5688add7ce704ce1a27ab62bb44044b9.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-39
+    mpv http://178.33.237.146/rtnc1.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-40
+    mpv https://theblaze4.akamaized.net/hls/live/699982/theblaze/cm-dvr/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
