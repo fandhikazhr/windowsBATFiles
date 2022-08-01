@@ -2263,3 +2263,123 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-81
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-82
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-83
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-84
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-85
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-86
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-87
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-88
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-89
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-90
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-91
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-92
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-93
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-94
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-95
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-96
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-97
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-98
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-99
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-100
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
