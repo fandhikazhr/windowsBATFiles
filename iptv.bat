@@ -2144,121 +2144,121 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto entertainment
   :switch-case-E-61
-    mpv https://demandafrica-klowdtv.amagi.tv/playlist.m3u8
+    mpv https://srv.panelcast.net/humor247/humor247/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-62
-    mpv https://demandafrica-samsungmexico.amagi.tv/playlist.m3u8
+    mpv https://ign-plex.amagi.tv/hls/amagi_hls_data_ignAAAAAA-ign-plexA/CDN/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-63
-    mpv https://docubayvh.s.llnwi.net/526a07ab-6ae7-4b6c-84a1-159791416484_1000004372_HLS/manifest.m3u8
+    mpv https://idvd.multitvsolution.com/idvo/imayamtv.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-64
-    mpv http://198.144.149.82:8080/NOTV/DREAMHD/index.m3u8?token=GTR
+    mpv https://dacastmmd.mmdlive.lldns.net/dacastmmd/f05d55e42dc746c8bd36edafbace7cc1/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-65
-    mpv http://14.199.164.20:4001/play/a0sq/index.m3u8
+    mpv http://103.199.161.254/Content/jaihind/Live/Channel(Jaihind)/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-66
-    mpv http://14.199.164.20:4001/play/a0pc/index.m3u8
+    mpv https://live.neestream.net/neestream_01/kairalitv/index.m3u8?token=693400
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-67
-    mpv https://live.streamjo.com/eetlive/eettv.m3u8
+    mpv http://103.199.161.254/Content/we/Live/Channel(We)/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-68
-    mpv https://ov.ottera.tv/live/master.m3u8?channel=elec_en
+    mpv http://103.199.161.254/Content/kasthuritv/Live/Channel(KasthuriTV)/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-69
-    mpv http://14.199.164.20:4001/play/a0j5/index.m3u8
+    mpv http://kcltv.livebox.co.in/kclhls/live.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-70
-    mpv https://estrellatv-plex.amagi.tv/playlist.m3u8
+    mpv http://14.199.164.20:4001/play/a0ni/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-71
-    mpv https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
+    mpv https://v-px.theus6tv.tk/hls/13.3/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-72
-    mpv http://14.199.164.20:4001/play/a0q8/index.m3u8
+    mpv https://livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-73
-    mpv https://raw.githubusercontent.com/LaneSh4d0w/IPTV_Exception/master/channels/af/fazatv.m3u8
+    mpv https://emisoras.hn:8081/metrotv/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-74
-    mpv http://n1.klowdtv.net/live3/fido_720p/chunks.m3u8
+    mpv https://videostreaming.cloudserverlatam.com/8062/8062/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-75
-    mpv http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8
+    mpv https://raw.githubusercontent.com/taodicakhia/IPTV_Exception/master/channels/af/lemartv.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-76
-    mpv http://14.199.164.20:4001/play/a0qx/index.m3u8
+    mpv https://shls-m6-france-prod-dub.shahid.net/out/v1/c8a9f6e000cd4ebaa4d2fc7d18c15988/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-77
-    mpv https://gulfsat.cdn.easybroadcast.fr/live/FunoonHd_abr/playlist.m3u8
+    mpv https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-78
-    mpv http://n1.klowdtv.net/live2/gsn_720p/chunks.m3u8
+    mpv https://dh4wkqcyy8768.cloudfront.net/live.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-79
-    mpv https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
+    mpv http://14.199.164.20:4001/play/a0kd/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-80
-    mpv https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c7e2503932c8368bdbfd875/playlist.m3u8
+    mpv http://14.199.164.20:4001/play/a0p9/index.m3u8
     echo Stop Playing
     pause
     cls
