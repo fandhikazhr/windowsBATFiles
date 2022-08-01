@@ -2203,3 +2203,63 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-71
+    mpv https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-72
+    mpv http://14.199.164.20:4001/play/a0q8/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-73
+    mpv https://raw.githubusercontent.com/LaneSh4d0w/IPTV_Exception/master/channels/af/fazatv.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-74
+    mpv http://n1.klowdtv.net/live3/fido_720p/chunks.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-75
+    mpv http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-76
+    mpv http://14.199.164.20:4001/play/a0qx/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-77
+    mpv https://gulfsat.cdn.easybroadcast.fr/live/FunoonHd_abr/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-78
+    mpv http://n1.klowdtv.net/live2/gsn_720p/chunks.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-79
+    mpv https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-80
+    mpv https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c7e2503932c8368bdbfd875/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
