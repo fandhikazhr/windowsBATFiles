@@ -2083,3 +2083,63 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-51
+    mpv http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-52
+    mpv http://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-53
+    mpv https://contv-junction.cinedigm.com/ingest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-54
+    mpv http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/602cf8963b4bc90007454541/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8b08c0-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=5043513f-eb20-46fd-8286-9e9ba240e6f9
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-55
+    mpv https://vivo.solumedia.com:19360/crossing/crossing.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-56
+    mpv https://cwseedlive.cwtv.com/ingest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-57
+    mpv http://14.199.164.20:4001/play/a0nb/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-58
+    mpv https://live.neestream.net/neestream_01/darshanatv/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-59
+    mpv http://103.199.161.254/Content/ddmalayalam/Live/Channel(DDMalayalam)/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-60
+    mpv http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
