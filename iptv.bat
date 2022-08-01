@@ -2143,3 +2143,63 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto entertainment
+  :switch-case-E-61
+    mpv https://demandafrica-klowdtv.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-62
+    mpv https://demandafrica-samsungmexico.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-63
+    mpv https://docubayvh.s.llnwi.net/526a07ab-6ae7-4b6c-84a1-159791416484_1000004372_HLS/manifest.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-64
+    mpv http://198.144.149.82:8080/NOTV/DREAMHD/index.m3u8?token=GTR
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-65
+    mpv http://14.199.164.20:4001/play/a0sq/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-66
+    mpv http://14.199.164.20:4001/play/a0pc/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-67
+    mpv https://live.streamjo.com/eetlive/eettv.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-68
+    mpv https://ov.ottera.tv/live/master.m3u8?channel=elec_en
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-69
+    mpv http://14.199.164.20:4001/play/a0j5/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
+  :switch-case-E-70
+    mpv https://estrellatv-plex.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto entertainment
