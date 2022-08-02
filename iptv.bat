@@ -2264,122 +2264,115 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto entertainment
   :switch-case-E-81
-    mpv 
+    mpv https://369f2966f62841f4affe37d0b330a13c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_MidnightPulp/playlist.m3u8?ads.app_bundle=&ads.app_store_url=&ads.consent=0&ads.gdpr=0&ads.plex_id=5ef4e1b40d9ad000423c4427&ads.plex_token=z1MCPUpbxYcHru-5hdyq&ads.psid=&ads.targetopt=1&ads.ua=Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/84.0.4147.89+Safari/537.36+OPR/70.0.3728.71&ads.us_privacy=1---&ads.wurl_channel=263&ads.wurl_name=MidnightPulp
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-82
-    mpv 
+    mpv http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5812b821249444e05d09cc4c/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&us_privacy=1YNY
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-83
-    mpv 
+    mpv http://103.199.160.85/Content/mktv/Live/Channel(MKTV)/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-84
-    mpv 
+    mpv http://131.153.22.8:1935/NCV/ncvstream/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-85
-    mpv 
+    mpv https://iptv.negahtv.com/negahtv/playlist2/index.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-86
-    mpv 
+    mpv http://51.210.199.38/hls/stream.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-87
-    mpv 
+    mpv http://137.59.86.218:1935/live/onetv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-88
-    mpv 
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e54169f4b9b25000994a303/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e54169f4b9b25000994a303&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=340&terminate=false&userId=
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-89
-    mpv 
+    mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/quatrotvgo
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-90
-    mpv 
+    mpv https://vivo.solumedia.com:19360/retromagico/retromagico.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-91
-    mpv 
+    mpv https://livecdn.fptplay.net/hda1/blueantent_vhls.smil/chunklist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-92
-    mpv 
+    mpv http://hdserver.7starcloud.com:1935/sanatv/sanatv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-93
-    mpv 
+    mpv https://simultv.s.llnwi.net/n4s4/Spydar/interlink.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-94
-    mpv 
+    mpv https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-95
-    mpv 
+    mpv https://hls.yourtime.live/hls/stream.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-96
-    mpv 
+    mpv https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-97
-    mpv 
+    mpv http://ott-cdn.ucom.am/s19/04.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-98
-    mpv 
+    mpv https://strm.yandex.ru/kal/utv/utv0.m3u8
     echo Stop Playing
     pause
     cls
     goto entertainment
   :switch-case-E-99
-    mpv 
-    echo Stop Playing
     pause
     cls
-    goto entertainment
-  :switch-case-E-100
-    mpv 
-    echo Stop Playing
-    pause
-    cls
-    goto entertainment
+    goto start
+  
