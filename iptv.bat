@@ -1272,7 +1272,7 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 9. HistoryEast                   19. NationalGeographicWildAsia      29. PlutoTVInvestigationFrance  39. ViasatNature
   echo 10. La2                          20. NationalGeographicWildRussia    30. SklillsPlusThrills          40. Exit
   echo.
-  echo /p CHQ=(ex:1,2,3) :
+  set /p CHQ=(ex:1,2,3) :
   
   call :switch-case-Q-%CHQ% 2>nul || (
        :: Default Case
@@ -1536,7 +1536,7 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 9. LeominsterTVEducational   19. PBSKidsMountain         29. TVE
   echo 10. LINKTVEducation          20. PBSKidsPacific          30. TVUniversidad
   echo.
-  echo /p CHW=(ex:1,2,3) :
+  set /p CHW=(ex:1,2,3) :
   
   call :switch-case-W-%CHW% 2>nul || (
        :: Default Case
