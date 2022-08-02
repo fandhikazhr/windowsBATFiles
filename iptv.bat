@@ -2376,3 +2376,124 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto start
   
+:switch-case-K-10
+  :family
+  cls
+  echo Family Category
+  echo.
+  echo 1. AVAFamily         6. PinkFamily               11. ThePetCollective        16. STSLove
+  echo 2. ChicosIPe         7. PlutoTVFamily            12. ThePetCollectiveSpain   17. Exit
+  echo 3. DoveChannel       8. PositivTV                13. TVFamilia
+  echo 4. FilmRiseFamily    9. RealFamiliesAustralia    14. TVSFamilyChannel
+  echo 5. FilmTVKinder      10. SantaandtheThreeBears   15. STS
+  echo.
+  set /p CHF=(ex:1,2,3) : 
+  
+  call :switch-case-F-%CHF% 2>nul || (
+      :: Default case
+      echo Wrong choice
+      pause
+      cls
+      goto family
+  )
+  :switch-case-F-1
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-2
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-3
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-4
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-5
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-6
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-7
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-8
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-9
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-10
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-11
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-12
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-13
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-14
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-15
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-16
+    mpv 
+    echo Stop Playing
+    pause
+    cls
+    goto family
+  :switch-case-F-17
+    pause
+    cls
+    goto start
+    
