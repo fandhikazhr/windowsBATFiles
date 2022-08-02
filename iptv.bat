@@ -1158,14 +1158,14 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 4. FoxSoul           9. NHKWorldJapan            14. RussiaK
   echo 5. KweliTV           10. PlutoTVCineSuspenso     15. Exit
   echo.
-  echo /p CHSSSSSS=(ex:1,2,3) :
+  set /p CRS=(ex:1,2,3) :
   
-  call :switch-case-T-%CHSSSSSS% 2>nul || (
+  call :switch-case-T-%CRS% 2>nul || (
        :: Default Case
        echo Wrong Choice
        pause
        cls
-       goto culture
+       goto cooking
   )
   :switch-case-T-1
     mpv https://5eae379fb77bb.streamlock.net/eduardo555/eduardo555/playlist.m3u8
