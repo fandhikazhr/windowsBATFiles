@@ -2397,97 +2397,97 @@ call :switch-case-K-%CHOOSE% 2>nul || (
       goto family
   )
   :switch-case-F-1
-    mpv 
+    mpv http://51.210.199.5/hls/stream.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-2
-    mpv 
+    mpv http://cdnh4.iblups.com/hls/OVJNKV4pSr.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-3
-    mpv 
+    mpv https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-dovenow/CDN/master.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-4
-    mpv 
+    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-5
-    mpv 
+    mpv https://v2.catcast.tv/content/38144/index.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-6
-    mpv 
+    mpv http://109.105.201.198/PINKFAMILY/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-7
-    mpv 
+    mpv https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc3fc6b9133f500099c7d98/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-8
-    mpv 
+    mpv https://api.new.livestream.com/accounts/27460990/events/8973036/live.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-9
-    mpv 
+    mpv https://lds-realfamilies-samsunguau.amagi.tv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-10
-    mpv 
+    mpv https://cloudfront.tubi.video/21df8036-fa23-49ff-9877-8af983546d2b/elw3phlf/stream.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-11
-    mpv 
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5bb1ad55268cae539bcedb08/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5bb1ad55268cae539bcedb08&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=637&terminate=false&userId=
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-12
-    mpv 
+    mpv https://the-pet-collective-international-eu.rakuten.wurl.tv/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-13
-    mpv 
+    mpv https://cdn01.yowi.tv/KPFPGJU8A6/master.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-14
-    mpv 
+    mpv https://rpn1.bozztv.com/36bay2/gusa-TVSFamilyChannel/index.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-15
-    mpv 
+    mpv https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
     echo Stop Playing
     pause
     cls
     goto family
   :switch-case-F-16
-    mpv 
+    mpv https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
     echo Stop Playing
     pause
     cls
