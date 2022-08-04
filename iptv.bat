@@ -2503,26 +2503,26 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Kids Category
   echo.
-  echo 1. ABCKids                           21.
-  echo 2. AfarinTV        
-  echo 3. AkaramKidz       
-  echo 4. ARBGunes    
-  echo 5. ArmeniaTownTownik
-  echo 6. BabyTV
-  echo 7. BatteryPopXUMO
-  echo 8. BumblebeeTVFunZone
-  echo 9. BumblebeeTVLegoToons
-  echo 10. BumblebeeTVLetsPlayMinecraft
-  echo 11. BumblebeeTVToyZone
-  echo 12. CartoonNetworkArabic
-  echo 13. CartoonNetworkAsia
-  echo 14. CartoonNetworkEast
-  echo 15. CartoonNetworkWest
-  echo 16. DaekyoKidsTV
-  echo 17. DuckTV
-  echo 18. EBSKids
-  echo 19. GulliBilArabi
-  echo 20. GulliGirl
+  echo 1. ABCKids                           21. HappyKids
+  echo 2. AfarinTV                          22. HappyKidsJunior
+  echo 3. AkaramKidz                        23. JimJamRussia
+  echo 4. ARBGunes                          24. KartoonCircus
+  echo 5. ArmeniaTownTownik                 25. KidsClick
+  echo 6. BabyTV                            26. KidsFlix
+  echo 7. BatteryPopXUMO                    27. LegoChannel
+  echo 8. BumblebeeTVFunZone                28. MiaoMi
+  echo 9. BumblebeeTVLegoToons              29. MoonbugKids
+  echo 10. BumblebeeTVLetsPlayMinecraft     30. MyKidz
+  echo 11. BumblebeeTVToyZone               31. NewKidTV
+  echo 12. CartoonNetworkArabic             32. NickJrTooUK
+  echo 13. CartoonNetworkAsia               33. NickelodeonAustralia
+  echo 14. CartoonNetworkEast               34. NickelodeonEast
+  echo 15. CartoonNetworkWest               35.
+  echo 16. DaekyoKidsTV                     36.
+  echo 17. DuckTV                           37.
+  echo 18. EBSKids                          38. 
+  echo 19. GulliBilArabi                    39. 
+  echo 20. GulliGirl                        40. 
   echo.
   set /p CHR=(ex:1,2,3) : 
   
