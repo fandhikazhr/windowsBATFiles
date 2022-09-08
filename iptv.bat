@@ -2623,3 +2623,153 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto kids
+  :switch-case-R-11
+    mpv https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22491932c8304fc4533e4/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-12
+    mpv https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-13
+    mpv http://198.16.106.62:8278/streams/d/Cn/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-14
+    mpv https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-15
+    mpv https://tve-live-lln.warnermediacdn.com/hls/live/2023180/toonwest/slate/VIDEO_0_3564000.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-16
+    mpv https://allanf181.github.io/adaptive-streams/streams/kr/DaekyoKidsTV.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-17
+    mpv https://mmm-ducktv-2-it.samsung.wurl.com/manifest/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-18
+    mpv https://allanf181.github.io/adaptive-streams/streams/kr/EBSKids.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-19
+    mpv https://shls-gulli-bil-arabi-prod-dub.shahid.net/out/v1/5454d215afba410c90b233f400730958/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-20
+    mpv http://188.40.68.167/russia/gulli_girl/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-21
+    mpv https://happykids-roku.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-22
+    mpv https://happykidsjunior-vizio.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-23
+    mpv http://188.40.68.167/russia/jimjam/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-24
+    mpv https://simultv.s.llnwi.net/n4s4/KartoonCircus/interlink.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-25
+    mpv http://wpso.com:1936/hls/kidshd.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-26
+    mpv https://usgeowall.sinclairstoryline.com/channel/1698bf57810a48c486b83d542bca298d.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-27
+    mpv https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-28
+    mpv https://legochannel-roku.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-29
+    mpv https://allanf181.github.io/adaptive-streams/streams/hk/MiaoMi.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-30
+    mpv https://moonbug-rokuus.amagi.tv/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-31
+    mpv http://210.210.155.35/uq2663/h/h191/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-32
+    mpv https://b9860b21629b415987978bdbbfbc3095.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_NewKID/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-33
+    mpv http://212.224.98.213:2200/EX/Nick_Jr_Too-uk/index.m3u8?token=
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-34
+    mpv http://c0.cdn.trinity-tv.net/stream/7tsewn83ddjifz69us9je7eftbm5nuausb4dsvz9g5aydin9672n734qbb9jgcfpiqtpwudvs9dpi2udjc3eh4h462eie5azjmfbfgfjeqfuhjmmgx9zuj736ijg7nffhf8rviq5svkgxbp639y9nfgc.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-35
+    mpv http://31.220.41.88:8081/live/us-nick.stream/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
