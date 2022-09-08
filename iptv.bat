@@ -2773,3 +2773,31 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto kids
+  :switch-case-R-36
+    mpv https://allanf181.github.io/adaptive-streams/streams/kr/Pinkfong.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-37
+    mpv https://mediacpstreamchile.com:1936/8152/8152/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-38
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ebac49ce4dc8b00078b23bc/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-39
+    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/562ea53fa9060c5a7d463e74/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=562ea53fa9060c5a7d463e74&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=548&terminate=false&userId=
+    echo Stop Playing
+    pause
+    cls
+    goto kids
+  :switch-case-R-40
+    pause
+    cls
+    goto start
