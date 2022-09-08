@@ -2576,49 +2576,49 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto kids
   :switch-case-R-8
-    mpv https://api.new.livestream.com/accounts/27460990/events/8973036/live.m3u8
+    mpv https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2625030145130f25474622/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-9
-    mpv https://lds-realfamilies-samsunguau.amagi.tv/playlist.m3u8
+    mpv https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22549d5eeee0f5a4094ba/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-10
-    mpv https://cloudfront.tubi.video/21df8036-fa23-49ff-9877-8af983546d2b/elw3phlf/stream.m3u8
+    mpv https://stitcheraws.unreel.me/wse-node02.powr.com/live/5e2625700145130f25474624/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-11
-    mpv https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5bb1ad55268cae539bcedb08/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5bb1ad55268cae539bcedb08&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=637&terminate=false&userId=
+    mpv https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf22491932c8304fc4533e4/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-12
-    mpv https://the-pet-collective-international-eu.rakuten.wurl.tv/playlist.m3u8
+    mpv https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-13
-    mpv https://cdn01.yowi.tv/KPFPGJU8A6/master.m3u8
+    mpv http://198.16.106.62:8278/streams/d/Cn/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-14
-    mpv https://rpn1.bozztv.com/36bay2/gusa-TVSFamilyChannel/index.m3u8
+    mpv https://tve-live-lln.warnermediacdn.com/hls/live/2023167/tooneast/slate/VIDEO_0_3564000.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-15
-    mpv https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+    mpv https://tve-live-lln.warnermediacdn.com/hls/live/2023180/toonwest/slate/VIDEO_0_3564000.m3u8
     echo Stop Playing
     pause
     cls
