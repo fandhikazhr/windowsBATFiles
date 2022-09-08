@@ -2552,11 +2552,11 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     cls
     goto kids
   :switch-case-R-4
-    mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
+    mpv http://149.255.152.199/arbgunes.m3u8
     echo Stop Playing
     pause
     cls
-    goto family
+    goto kids
   :switch-case-F-5
     mpv https://v2.catcast.tv/content/38144/index.m3u8
     echo Stop Playing
