@@ -2517,12 +2517,12 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 12. CartoonNetworkArabic             32. NickJrTooUK
   echo 13. CartoonNetworkAsia               33. NickelodeonAustralia
   echo 14. CartoonNetworkEast               34. NickelodeonEast
-  echo 15. CartoonNetworkWest               35.
-  echo 16. DaekyoKidsTV                     36.
-  echo 17. DuckTV                           37.
-  echo 18. EBSKids                          38. 
-  echo 19. GulliBilArabi                    39. 
-  echo 20. GulliGirl                        40. 
+  echo 15. CartoonNetworkWest               35. KidsTV
+  echo 16. DaekyoKidsTV                     36. Pingfong
+  echo 17. DuckTV                           37. PlanetTVKids
+  echo 18. EBSKids                          38. BabyFirst
+  echo 19. GulliBilArabi                    39. ClassicToonsTV
+  echo 20. GulliGirl                        40. Exit
   echo.
   set /p CHR=(ex:1,2,3) : 
   
@@ -2534,24 +2534,24 @@ call :switch-case-K-%CHOOSE% 2>nul || (
       goto family
   )
   :switch-case-R-1
-    mpv http://51.210.199.5/hls/stream.m3u8
+    mpv https://c.mjh.nz/101002210222
     echo Stop Playing
     pause
     cls
     goto kids
   :switch-case-R-2
-    mpv http://cdnh4.iblups.com/hls/OVJNKV4pSr.m3u8
+    mpv https://5ab29cc78f681.streamlock.net/afarinTV/livestream/playlist.m3u8
     echo Stop Playing
     pause
     cls
     goto kids
-  :switch-case-F-3
-    mpv https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-dovenow/CDN/master.m3u8
+  :switch-case-R-3
+    mpv http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
     echo Stop Playing
     pause
     cls
-    goto family
-  :switch-case-F-4
+    goto kids
+  :switch-case-R-4
     mpv https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
     echo Stop Playing
     pause
