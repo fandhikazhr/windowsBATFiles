@@ -2801,3 +2801,11 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto start
+
+:switch-case-K-12
+  :legislative
+  cls
+  echo Legislative Category
+  echo.
+  echo.
+  set /p CHT=(ex:1,2,3) :
