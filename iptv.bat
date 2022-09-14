@@ -2,7 +2,7 @@
 title IPTV
 :start
 echo 8888888 8888888b. 88888888888 888     888       .d8888b.  888b     d888 8888888b.  
-echo   888   888   Y88b    888     888     888      d88P  Y88b 8888b   d8888 888  "Y88b 
+echo   888   888   88b    888     888     888      d88P  Y88b 8888b   d8888 888  "Y88b 
 echo   888   888    888    888     888     888      888    888 88888b.d88888 888    888 
 echo   888   888   d88P    888     Y88b   d88P      888        888Y88888P888 888    888 
 echo   888   8888888P"     888      Y88b d88P       888        888 Y888P 888 888    888 
@@ -2531,7 +2531,7 @@ call :switch-case-K-%CHOOSE% 2>nul || (
       echo Wrong choice
       pause
       cls
-      goto family
+      goto kids
   )
   :switch-case-R-1
     mpv https://c.mjh.nz/101002210222
@@ -2820,3 +2820,30 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   echo 11. CPACEnglish          22. LeominsterTVGovernment              33. Parlementsfernsehen2            44. Exit
   echo.
   set /p CHT=(ex:1,2,3) :
+
+  call :switch-case-R-%CHT% 2>nul || (
+      :: Default case
+      echo Wrong choice
+      pause
+      cls
+      goto legislative
+  )
+  :switch-case-O-1
+    mpv https://althingi-live.secure.footprint.net/althingi/live/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-2
+    mpv https://dacastmmd.mmdlive.lldns.net/dacastmmd/bdc928e938f54ab280e8bfa0e265eddd/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-3
+    mpv https://vblive-c.viebit.com/072e341f-100d-4da1-9c18-65370ebf35c6/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  
