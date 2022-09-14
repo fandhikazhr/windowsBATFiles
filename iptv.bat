@@ -2807,16 +2807,16 @@ call :switch-case-K-%CHOOSE% 2>nul || (
   cls
   echo Legislative Category
   echo.
-  echo 1. Althingi              12. CSPAN                               23. LBTV
-  echo 2. ANTV                  13. DCCouncilChannel                    24. MarinTVGovernmentChannel
-  echo 3. BanningCityTV         14. DistrictofColumbiaNetwork           25. TheCityofMarina
-  echo 4. BBCParliament         15. EbS                                 26. MidpenMediaCenterChannel29
-  echo 5. BPTV                  16. EbSPlus                             27. MorroBayChannel20
-  echo 6. CanaldeGobierno       17. TVfromtheDanishParliament           28. NCMGovernmentPoliticsChannel
-  echo 7. CanaldelCongreso451   18. CMAC3                               29. NBTV
-  echo 8. CDTV                  19. GlendaleTV                          30. LegislativeAssemblyTVNunavut
-  echo 9. KTOP                  20. LACityView35                        31. OntarioParliamentaryNetwork
-  echo 10. CongresoTV           21. LegislativeAssemblyofElSalvador     32. Parlementsfernsehen1
-  echo 11. CPACEnglish          22. LeominsterTVGovernment              33. Parlementsfernsehen2
+  echo 1. Althingi              12. CSPAN                               23. LBTV                            34. ParliamentTV
+  echo 2. ANTV                  13. DCCouncilChannel                    24. MarinTVGovernmentChannel        35. PublicSenat
+  echo 3. BanningCityTV         14. DistrictofColumbiaNetwork           25. TheCityofMarina                 36. ThePeninsulaChannel
+  echo 4. BBCParliament         15. EbS                                 26. MidpenMediaCenterChannel29      37. SenatoTV
+  echo 5. BPTV                  16. EbSPlus                             27. MorroBayChannel20               38. TVALMG
+  echo 6. CanaldeGobierno       17. TVfromtheDanishParliament           28. NCMGovernmentPoliticsChannel    39. TVCamara
+  echo 7. CanaldelCongreso451   18. CMAC3                               29. NBTV                            40. TVCamara2
+  echo 8. CDTV                  19. GlendaleTV                          30. LegislativeAssemblyTVNunavut    41. TVRParlemen
+  echo 9. KTOP                  20. LACityView35                        31. OntarioParliamentaryNetwork     42. YouDotGov
+  echo 10. CongresoTV           21. LegislativeAssemblyofElSalvador     32. Parlementsfernsehen1            43. Yuma77
+  echo 11. CPACEnglish          22. LeominsterTVGovernment              33. Parlementsfernsehen2            44. Exit
   echo.
   set /p CHT=(ex:1,2,3) :
