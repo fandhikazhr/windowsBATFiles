@@ -2846,4 +2846,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto legislative
+  :switch-case-O-4
+    mpv https://vs-cmaf-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_parliament/iptv_hd_abr_v1.mpd
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-5
+    mpv https://edge-f.swagit.com/live/buenaparkca/smil:std-4x3-1-a/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-6
+    mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/GobiernodeGuatemala/live
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
   
