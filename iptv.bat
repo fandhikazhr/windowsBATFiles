@@ -2864,4 +2864,34 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto legislative
+  :switch-case-O-7
+    mpv https://edge.canaldelcongreso.gob.mx/live_sd1/smil:canal-sd1.smil/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-8
+    mpv http://camara.03.cl.cdnz.cl/camara19/live/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-9
+    mpv https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/oakland/G0219_002/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-10
+    mpv http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/CongresodelaRepúblicadelPerúTVenvivo/live
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-11
+    mpv https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
   
