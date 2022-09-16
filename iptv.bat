@@ -2942,4 +2942,22 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto legislative
+  :switch-case-O-20
+    mpv https://reflect-losangeles.cablecast.tv/live-3/live/live.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-21
+    mpv https://streaming.asamblea.gob.sv/hls/plenariahd.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-22
+    mpv http://gov.leominster.tv/Gov/smil:Gov.smil/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
   
