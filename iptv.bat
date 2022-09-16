@@ -2918,4 +2918,28 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto legislative
+  :switch-case-O-16
+    mpv https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-17
+    mpv https://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-18
+    mpv https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-19
+    mpv https://reflect-gtv6-glendale.cablecast.tv/live-2/live/live.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
   
