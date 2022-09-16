@@ -2894,4 +2894,28 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto legislative
+  :switch-case-O-12
+    mpv http://trn03.tulix.tv/teleup-cspan/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-13
+    mpv https://video.oct.dc.gov/out/u/15_12.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-14
+    mpv https://video.oct.dc.gov/out/u/DCN.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-15
+    mpv https://euc-live.fl.freecaster.net/live/eucom/ebs.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
   
