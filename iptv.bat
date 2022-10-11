@@ -3008,4 +3008,21 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto legislative
-  
+  :switch-case-O-31
+    mpv http://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-32
+    mpv https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-33
+    mpv https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk2.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
