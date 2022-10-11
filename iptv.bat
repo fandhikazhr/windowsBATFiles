@@ -2960,4 +2960,52 @@ call :switch-case-K-%CHOOSE% 2>nul || (
     pause
     cls
     goto legislative
+  :switch-case-O-23
+    mpv https://cdn3.wowza.com/5/WDIrTW5sM1JEY1NN/longbeach/G0020_001/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-24
+    mpv https://dacastmmd.mmdlive.lldns.net/dacastmmd/ddf2a073e3da4acb9feb34bef6d58672/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-25
+    mpv https://ampmedia.secure.footprint.net/egress/bhandler/ampmedia/streamd/manifest.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-26
+    mpv https://5c2974786200d.streamlock.net/live-chan29/ngrp:ch29_all/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-27
+    mpv https://agp-nimble.streamguys1.com/MBCh20/MBCh20/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-28
+    mpv https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/nevco/G0644_002/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-29
+    mpv https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/newportbeach/G0064_003/playlist.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
+  :switch-case-O-30
+    mpv https://temp6.isilive.ca/live/nunavut/live-flo/index.m3u8
+    echo Stop Playing
+    pause
+    cls
+    goto legislative
   
